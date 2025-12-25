@@ -29,22 +29,23 @@ class SProductImageSlider extends StatelessWidget {
               ),
             ),
             Positioned(
-              left: Ssizes.defaultSpace,
               right: 0,
               bottom: 30,
+              left: Ssizes.defaultSpace,
 
               child: SizedBox(
                 height: 80,
+
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   physics: AlwaysScrollableScrollPhysics(),
-                  shrinkWrap: true,
+
                   separatorBuilder: (_, __) =>
                       SizedBox(width: Ssizes.spacebtwItem),
                   itemCount: 6,
                   itemBuilder: (_, index) => SRoundImage(
                     width: 80,
-                    imageUrl: SImage.productImage68,
+                    imageUrl: SImage.productImage60,
                     backgroundColor: dark ? SColors.dark : SColors.white,
                     border: Border.all(color: SColors.primary),
                     padding: EdgeInsets.all(Ssizes.sa),

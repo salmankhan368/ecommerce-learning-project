@@ -16,11 +16,15 @@ class promoSlider extends StatelessWidget {
     final controller = Get.put(HomeController());
     return Column(
       children: [
-        CarouselSlider(
-          items: banners.map((url) => SRoundImage(imageUrl: url)).toList(),
-          options: CarouselOptions(
-            viewportFraction: 0.8,
-            onPageChanged: (index, _) => controller.updatePageindiactor(index),
+        Padding(
+          padding: const EdgeInsets.all(Ssizes.defaultSpace),
+          child: CarouselSlider(
+            items: banners.map((url) => SRoundImage(imageUrl: url)).toList(),
+            options: CarouselOptions(
+              viewportFraction: 0.8,
+              onPageChanged: (index, _) =>
+                  controller.updatePageindiactor(index),
+            ),
           ),
         ),
         SizedBox(height: Ssizes.spacebtwItem),

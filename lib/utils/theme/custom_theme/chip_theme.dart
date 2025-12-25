@@ -6,6 +6,7 @@ class SChipTheme {
   /*--Chip Theme for light  --*/
   static ChipThemeData lightChipTheme = ChipThemeData(
     disabledColor: Colors.grey.withOpacity(0.4),
+    // disabledColor: SColors.primary,
     labelStyle: TextStyle(color: Colors.black),
     selectedColor: SColors.primary,
     padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
