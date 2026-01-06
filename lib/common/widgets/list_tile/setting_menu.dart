@@ -18,6 +18,7 @@ class SettingMenutile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      onTap: onTap,
       leading: Icon(icon, size: 20, color: SColors.primary),
       title: Text(title, style: Theme.of(context).textTheme.titleMedium),
       subtitle: Text(subtitle, style: Theme.of(context).textTheme.labelMedium),

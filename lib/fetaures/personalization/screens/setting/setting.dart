@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:s_store/common/widgets/app.bar/app_bar.dart';
 import 'package:s_store/common/widgets/custom_shape/containers/primary_header_container.dart';
 import 'package:s_store/common/widgets/list_tile/setting_menu.dart';
 import 'package:s_store/common/widgets/list_tile/user_profile.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
+import 'package:s_store/fetaures/personalization/screens/address/address.dart';
 import 'package:s_store/fetaures/personalization/screens/profile/profile.dart';
+import 'package:s_store/fetaures/shop/screens/order/order.dart';
 import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 
@@ -24,6 +25,7 @@ class SettingScreen extends StatelessWidget {
               child: Column(
                 children: [
                   SAppBar(
+                    showBackArrow: true,
                     title: Text(
                       'Account',
                       style: Theme.of(
@@ -51,7 +53,7 @@ class SettingScreen extends StatelessWidget {
                     icon: Iconsax.safe_home,
                     title: 'My Address',
                     subtitle: 'Get shoping delivery address',
-                    onTap: () {},
+                    onTap: () => Get.to(() => UserAddressScreen()),
                   ),
                   SettingMenutile(
                     icon: Iconsax.shopping_cart,
@@ -63,7 +65,7 @@ class SettingScreen extends StatelessWidget {
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subtitle: 'In-progress and Completed orders',
-                    onTap: () {},
+                    onTap: () => Get.to(() => OrderScreen()),
                   ),
                   SettingMenutile(
                     icon: Iconsax.bank,

@@ -95,4 +95,9 @@ class SImage {
       "assets/images/products/tshirt_blue_without_collar_back.png";
   static const String productImage69 =
       "assets/images/products/tshirt_blue_without_collar_front.png";
+  //Payment
+  static const String payPalicon =
+      'assets/icons/payment_Method/paypal-logo.png';
+  static const String easypaisa =
+      "assets/icons/payment_Method/Easypaisa-logo.png";
 }

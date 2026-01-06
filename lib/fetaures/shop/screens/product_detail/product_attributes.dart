@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:s_store/common/widgets/chip/chip_choices.dart';
-import 'package:s_store/common/widgets/custom_shape/containers/circuler_container.dart';
 import 'package:s_store/common/widgets/custom_shape/containers/rounded_container.dart';
 import 'package:s_store/common/widgets/text/Sproduct_price.dart';
 import 'package:s_store/common/widgets/text/product_tile_text.dart';
@@ -98,7 +96,7 @@ class SProductAttributes extends StatelessWidget {
               spacing: 5,
               children: [
                 SChoiceChip(
-                  text: 'eu 35s',
+                  text: 'EU 35s',
                   selected: true,
                   onSelected: (value) {},
                 ),

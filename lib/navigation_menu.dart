@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:s_store/fetaures/personalization/screens/address/setting/setting.dart';
+import 'package:s_store/fetaures/personalization/screens/setting/setting.dart';
 import 'package:s_store/fetaures/shop/screens/Wishlist/whish_list.dart';
 import 'package:s_store/fetaures/shop/screens/home/home.dart';
 import 'package:s_store/fetaures/shop/screens/store/store.dart';
