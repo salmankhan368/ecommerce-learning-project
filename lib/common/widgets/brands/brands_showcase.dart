@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:s_store/common/widgets/custom_shape/containers/rounded_container.dart';
-import 'package:s_store/common/widgets/text/sbrand_card.dart';
+import 'package:s_store/common/widgets/brands/sbrand_card.dart';
 import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 import 'package:s_store/utils/helpers/helper_functions.dart';
@@ -24,9 +24,9 @@ class SBrandShowCase extends StatelessWidget {
           //  product images
           Row(
             children: [
-              ...images
-                  .map((image) => brandTopProductImageWidget(image, context))
-                  .toList(),
+              ...images.map(
+                (image) => brandTopProductImageWidget(image, context),
+              ),
             ],
           ),
         ],

@@ -8,7 +8,7 @@ import 'package:s_store/utils/constants/text_strings.dart';
 import 'package:s_store/utils/helpers/helper_functions.dart';
 
 class SignUpPage extends StatelessWidget {
-  SignUpPage({super.key});
+  const SignUpPage({super.key});
 
   @override
   Widget build(BuildContext context) {

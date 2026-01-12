@@ -25,7 +25,7 @@ class STermsAndConditionsCheckbox extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodySmall,
               ),
               TextSpan(
-                text: '${SText.privacyPolicy}',
+                text: SText.privacyPolicy,
                 style: Theme.of(context).textTheme.bodyMedium!.apply(
                   color: dark ? SColors.white : SColors.primary,
                   decoration: TextDecoration.underline,

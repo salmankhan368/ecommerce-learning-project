@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:s_store/common/widgets/image_text.widget/vertical_image_text.dart';
+import 'package:s_store/fetaures/shop/screens/sub_catogories/sub_categories.dart';
 import 'package:s_store/utils/constants/image_string.dart';
 
 class SHomeCategories extends StatelessWidget {
@@ -17,7 +19,7 @@ class SHomeCategories extends StatelessWidget {
           return SVerticleImageText(
             title: 'Shoes',
             image: SImage.shoeIcon,
-            onTap: () {},
+            onTap: () => Get.to(() => SubCategoriesScreen()),
           );
         },
       ),

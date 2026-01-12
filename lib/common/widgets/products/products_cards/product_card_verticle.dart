@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/utils.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:s_store/common/Icon/s_circuler_icon.dart';
 import 'package:s_store/common/images/s_round_image.dart';
@@ -16,7 +15,7 @@ import 'package:s_store/utils/constants/sizes.dart';
 import 'package:s_store/utils/helpers/helper_functions.dart';
 
 class SProductCardVerticle extends StatelessWidget {
-  SProductCardVerticle({super.key});
+  const SProductCardVerticle({super.key});
 
   @override
   Widget build(BuildContext context) {

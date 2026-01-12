@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:s_store/common/layout/S_grid.layout.dart';
 import 'package:s_store/common/widgets/custom_shape/containers/primary_header_container.dart';
 import 'package:s_store/common/widgets/custom_shape/containers/search_container.dart';
 import 'package:s_store/common/widgets/products/products_cards/product_card_verticle.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
+import 'package:s_store/fetaures/shop/screens/all_products/all_products.dart';
 import 'package:s_store/fetaures/shop/screens/home/widget/home_appBar.dart';
 import 'package:s_store/fetaures/shop/screens/home/widget/home_categories.dart';
 import 'package:s_store/fetaures/shop/screens/home/widget/promo_slider.dart';
@@ -29,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                   //Search Container
                   SSearchContainer(
                     text: 'Search in store',
-                    padding: EdgeInsets.all(0),
+                    padding: EdgeInsets.all(8),
                   ),
                   SizedBox(height: Ssizes.spacebtwSection),
                   Padding(
@@ -66,7 +68,10 @@ class HomeScreen extends StatelessWidget {
                   ),
 
                   SizedBox(height: Ssizes.spacebtwSection),
-                  SSectionHeading(title: 'Populer products', onPressed: () {}),
+                  SSectionHeading(
+                    title: 'Populer products',
+                    onPressed: () => Get.to(() => AllProducts()),
+                  ),
                   SizedBox(height: Ssizes.spacebtwItem),
                   //populerProducts
                   SGridLayout(

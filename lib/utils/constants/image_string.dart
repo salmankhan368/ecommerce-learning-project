@@ -89,7 +89,7 @@ class SImage {
       "assets/images/products/leather_jacket_2.png";
   static const String productImage66 =
       "assets/images/products/leather_jacket_3.png";
-  static const String productImage67 =
+  static const String productImage67 = ////////////
       "assets/images/products/leather_jacket_4.png";
   static const String productImage68 =
       "assets/images/products/tshirt_blue_without_collar_back.png";

@@ -33,7 +33,7 @@ class SVerticleImageText extends StatelessWidget {
               width: 56,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(100),
-                color: (dark ? SColors.black : SColors.white),
+                color: (dark ? SColors.light : SColors.dark),
               ),
               child: Center(
                 child: Image(

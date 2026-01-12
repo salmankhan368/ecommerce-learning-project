@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:s_store/common/widgets/app.bar/app_bar.dart';
-import 'package:s_store/common/widgets/text/Sproduct_price.dart';
-import 'package:s_store/fetaures/shop/screens/cart/widgets/cart_button.dart';
-import 'package:s_store/fetaures/shop/screens/cart/widgets/s_cart_item.dart';
 import 'package:s_store/fetaures/shop/screens/cart/widgets/x_cartitem.dart';
 import 'package:s_store/fetaures/shop/screens/checkout/check_out.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 
 class CartScreen extends StatelessWidget {
+  const CartScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

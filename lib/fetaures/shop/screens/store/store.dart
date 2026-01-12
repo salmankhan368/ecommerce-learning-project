@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:s_store/common/layout/S_grid.layout.dart';
 import 'package:s_store/common/products.cart/cart_menu_icon.dart';
 import 'package:s_store/common/widgets/app.bar/app_bar.dart';
 import 'package:s_store/common/widgets/app.bar/tabbar.dart';
 import 'package:s_store/common/widgets/custom_shape/containers/search_container.dart';
-import 'package:s_store/common/widgets/text/sbrand_card.dart';
+import 'package:s_store/common/widgets/brands/sbrand_card.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
+import 'package:s_store/fetaures/shop/screens/all_brands/all_brands.dart';
 import 'package:s_store/fetaures/shop/screens/home/widget/s_catogries.dart';
 import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/sizes.dart';
@@ -20,6 +22,7 @@ class StoreScreen extends StatelessWidget {
       length: 5,
       child: Scaffold(
         appBar: SAppBar(
+          showBackArrow: true,
           title: Text(
             'Store',
             style: Theme.of(context).textTheme.headlineLarge,
@@ -58,7 +61,7 @@ class StoreScreen extends StatelessWidget {
                       ///---Feature Brand
                       SSectionHeading(
                         title: 'Featured Brands',
-                        onPressed: () {},
+                        onPressed: () => Get.to(() => AllBrandsScreen()),
                       ),
                       SizedBox(height: Ssizes.spacebtwItem / 1.2),
                       SGridLayout(

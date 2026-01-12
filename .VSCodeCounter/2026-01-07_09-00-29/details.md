@@ -1,10 +1,10 @@
 # Details
 
-Date : 2025-12-25 07:52:58
+Date : 2026-01-07 09:00:29
 
 Directory d:\\Profesional Flutter project Structure\\s_store
 
-Total : 144 files,  5890 codes, 381 comments, 705 blanks, all 6976 lines
+Total : 163 files,  6895 codes, 392 comments, 764 blanks, all 8051 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -57,34 +57,53 @@ Total : 144 files,  5890 codes, 381 comments, 705 blanks, all 6976 lines
 | [lib/common/widgets/custom\_shape/curved\_edge/curved\_edges.dart](/lib/common/widgets/custom_shape/curved_edge/curved_edges.dart) | Dart | 39 | 0 | 4 | 43 |
 | [lib/common/widgets/custom\_shape/curved\_edge/curved\_edges\_widget.dart](/lib/common/widgets/custom_shape/curved_edge/curved_edges_widget.dart) | Dart | 10 | 0 | 4 | 14 |
 | [lib/common/widgets/image\_text.widget/vertical\_image\_text.dart](/lib/common/widgets/image_text.widget/vertical_image_text.dart) | Dart | 55 | 2 | 5 | 62 |
-| [lib/common/widgets/list\_tile/setting\_menu.dart](/lib/common/widgets/list_tile/setting_menu.dart) | Dart | 25 | 0 | 3 | 28 |
+| [lib/common/widgets/list\_tile/setting\_menu.dart](/lib/common/widgets/list_tile/setting_menu.dart) | Dart | 26 | 0 | 3 | 29 |
 | [lib/common/widgets/list\_tile/user\_profile.dart](/lib/common/widgets/list_tile/user_profile.dart) | Dart | 36 | 0 | 3 | 39 |
 | [lib/common/widgets/products/products\_cards/product\_card\_horizontal.dart](/lib/common/widgets/products/products_cards/product_card_horizontal.dart) | Dart | 0 | 0 | 2 | 2 |
 | [lib/common/widgets/products/products\_cards/product\_card\_verticle.dart](/lib/common/widgets/products/products_cards/product_card_verticle.dart) | Dart | 115 | 3 | 4 | 122 |
+| [lib/common/widgets/products/rating/rating\_bar\_indicator.dart](/lib/common/widgets/products/rating/rating_bar_indicator.dart) | Dart | 17 | 0 | 3 | 20 |
 | [lib/common/widgets/successScreen/sucees\_screen.dart](/lib/common/widgets/successScreen/sucees_screen.dart) | Dart | 54 | 2 | 3 | 59 |
 | [lib/common/widgets/text/S.brand\_title\_text.verified.dart](/lib/common/widgets/text/S.brand_title_text.verified.dart) | Dart | 41 | 5 | 4 | 50 |
 | [lib/common/widgets/text/Sproduct\_price.dart](/lib/common/widgets/text/Sproduct_price.dart) | Dart | 30 | 0 | 3 | 33 |
 | [lib/common/widgets/text/product\_tile\_text.dart](/lib/common/widgets/text/product_tile_text.dart) | Dart | 26 | 0 | 3 | 29 |
 | [lib/common/widgets/text/s.brand.title.text.dart](/lib/common/widgets/text/s.brand.title.text.dart) | Dart | 33 | 1 | 3 | 37 |
 | [lib/common/widgets/text/sbrand\_card.dart](/lib/common/widgets/text/sbrand_card.dart) | Dart | 59 | 1 | 3 | 63 |
-| [lib/common/widgets/text/section\_heading.dart](/lib/common/widgets/text/section_heading.dart) | Dart | 32 | 0 | 3 | 35 |
+| [lib/common/widgets/text/section\_heading.dart](/lib/common/widgets/text/section_heading.dart) | Dart | 34 | 0 | 3 | 37 |
 | [lib/fetaures/authentication/controllers.onboarding/onboarding.controller.dart](/lib/fetaures/authentication/controllers.onboarding/onboarding.controller.dart) | Dart | 28 | 9 | 6 | 43 |
-| [lib/fetaures/personalization/screens/address/setting/setting.dart](/lib/fetaures/personalization/screens/address/setting/setting.dart) | Dart | 134 | 2 | 3 | 139 |
+| [lib/fetaures/personalization/screens/address/address.dart](/lib/fetaures/personalization/screens/address/address.dart) | Dart | 40 | 0 | 3 | 43 |
+| [lib/fetaures/personalization/screens/address/address.new.dart](/lib/fetaures/personalization/screens/address/address.new.dart) | Dart | 105 | 0 | 3 | 108 |
+| [lib/fetaures/personalization/screens/address/widget/single\_adress.dart](/lib/fetaures/personalization/screens/address/widget/single_adress.dart) | Dart | 70 | 0 | 4 | 74 |
 | [lib/fetaures/personalization/screens/profile/profile.dart](/lib/fetaures/personalization/screens/profile/profile.dart) | Dart | 95 | 0 | 3 | 98 |
 | [lib/fetaures/personalization/screens/profile/widgets/profile\_menu.dart](/lib/fetaures/personalization/screens/profile/widgets/profile_menu.dart) | Dart | 33 | 0 | 4 | 37 |
+| [lib/fetaures/personalization/screens/setting/setting.dart](/lib/fetaures/personalization/screens/setting/setting.dart) | Dart | 136 | 2 | 3 | 141 |
 | [lib/fetaures/shop/controller/homeController/home\_controller.dart](/lib/fetaures/shop/controller/homeController/home_controller.dart) | Dart | 8 | 0 | 2 | 10 |
 | [lib/fetaures/shop/screens/Wishlist/whish\_list.dart](/lib/fetaures/shop/screens/Wishlist/whish_list.dart) | Dart | 40 | 0 | 3 | 43 |
+| [lib/fetaures/shop/screens/cart/cart\_screen.dart](/lib/fetaures/shop/screens/cart/cart_screen.dart) | Dart | 31 | 0 | 2 | 33 |
+| [lib/fetaures/shop/screens/cart/widgets/cart\_button.dart](/lib/fetaures/shop/screens/cart/widgets/cart_button.dart) | Dart | 39 | 0 | 3 | 42 |
+| [lib/fetaures/shop/screens/cart/widgets/coupon\_widget.dart](/lib/fetaures/shop/screens/cart/widgets/coupon_widget.dart) | Dart | 51 | 0 | 3 | 54 |
+| [lib/fetaures/shop/screens/cart/widgets/s\_cart\_item.dart](/lib/fetaures/shop/screens/cart/widgets/s_cart_item.dart) | Dart | 72 | 0 | 3 | 75 |
+| [lib/fetaures/shop/screens/cart/widgets/x\_cartitem.dart](/lib/fetaures/shop/screens/cart/widgets/x_cartitem.dart) | Dart | 36 | 1 | 3 | 40 |
+| [lib/fetaures/shop/screens/checkout/check\_out.dart](/lib/fetaures/shop/screens/checkout/check_out.dart) | Dart | 73 | 4 | 4 | 81 |
+| [lib/fetaures/shop/screens/checkout/widgets/billing\_address\_section.dart](/lib/fetaures/shop/screens/checkout/widgets/billing_address_section.dart) | Dart | 44 | 0 | 3 | 47 |
+| [lib/fetaures/shop/screens/checkout/widgets/billing\_amount\_section.dart](/lib/fetaures/shop/screens/checkout/widgets/billing_amount_section.dart) | Dart | 35 | 0 | 3 | 38 |
+| [lib/fetaures/shop/screens/checkout/widgets/billing\_payment\_section.dart](/lib/fetaures/shop/screens/checkout/widgets/billing_payment_section.dart) | Dart | 42 | 0 | 3 | 45 |
 | [lib/fetaures/shop/screens/home/home.dart](/lib/fetaures/shop/screens/home/home.dart) | Dart | 74 | 7 | 4 | 85 |
-| [lib/fetaures/shop/screens/home/widget/home\_appbar.dart](/lib/fetaures/shop/screens/home/widget/home_appbar.dart) | Dart | 30 | 0 | 3 | 33 |
+| [lib/fetaures/shop/screens/home/widget/home\_appbar.dart](/lib/fetaures/shop/screens/home/widget/home_appbar.dart) | Dart | 37 | 0 | 3 | 40 |
 | [lib/fetaures/shop/screens/home/widget/home\_categories.dart](/lib/fetaures/shop/screens/home/widget/home_categories.dart) | Dart | 24 | 0 | 3 | 27 |
 | [lib/fetaures/shop/screens/home/widget/promo\_slider.dart](/lib/fetaures/shop/screens/home/widget/promo_slider.dart) | Dart | 50 | 0 | 3 | 53 |
 | [lib/fetaures/shop/screens/home/widget/s\_catogries.dart](/lib/fetaures/shop/screens/home/widget/s_catogries.dart) | Dart | 41 | 1 | 3 | 45 |
-| [lib/fetaures/shop/screens/product\_detail/product\_attributes.dart](/lib/fetaures/shop/screens/product_detail/product_attributes.dart) | Dart | 117 | 2 | 4 | 123 |
-| [lib/fetaures/shop/screens/product\_detail/product\_detail.dart](/lib/fetaures/shop/screens/product_detail/product_detail.dart) | Dart | 87 | 4 | 6 | 97 |
+| [lib/fetaures/shop/screens/order/order.dart](/lib/fetaures/shop/screens/order/order.dart) | Dart | 22 | 0 | 3 | 25 |
+| [lib/fetaures/shop/screens/order/widgets/s.order.list.dart](/lib/fetaures/shop/screens/order/widgets/s.order.list.dart) | Dart | 106 | 0 | 4 | 110 |
+| [lib/fetaures/shop/screens/product\_detail/product\_attributes.dart](/lib/fetaures/shop/screens/product_detail/product_attributes.dart) | Dart | 115 | 2 | 4 | 121 |
+| [lib/fetaures/shop/screens/product\_detail/product\_detail.dart](/lib/fetaures/shop/screens/product_detail/product_detail.dart) | Dart | 92 | 4 | 6 | 102 |
 | [lib/fetaures/shop/screens/product\_detail/product\_meta\_data.dart](/lib/fetaures/shop/screens/product_detail/product_meta_data.dart) | Dart | 75 | 0 | 3 | 78 |
 | [lib/fetaures/shop/screens/product\_detail/rating\_share\_detail.dart](/lib/fetaures/shop/screens/product_detail/rating_share_detail.dart) | Dart | 36 | 0 | 3 | 39 |
 | [lib/fetaures/shop/screens/product\_detail/widgets/product.detail.image.silder.dart](/lib/fetaures/shop/screens/product_detail/widgets/product.detail.image.silder.dart) | Dart | 62 | 1 | 6 | 69 |
 | [lib/fetaures/shop/screens/product\_detail/widgets/sbottom.add.to.cart.dart](/lib/fetaures/shop/screens/product_detail/widgets/sbottom.add.to.cart.dart) | Dart | 61 | 0 | 4 | 65 |
+| [lib/fetaures/shop/screens/product\_reviews/product\_reviews.dart](/lib/fetaures/shop/screens/product_reviews/product_reviews.dart) | Dart | 35 | 3 | 3 | 41 |
+| [lib/fetaures/shop/screens/product\_reviews/rating\_progress\_indicator.dart](/lib/fetaures/shop/screens/product_reviews/rating_progress_indicator.dart) | Dart | 28 | 0 | 3 | 31 |
+| [lib/fetaures/shop/screens/product\_reviews/user\_review\_card.dart](/lib/fetaures/shop/screens/product_reviews/user_review_card.dart) | Dart | 103 | 1 | 3 | 107 |
+| [lib/fetaures/shop/screens/product\_reviews/widgets/progress\_indicator\_and\_reviews.dart](/lib/fetaures/shop/screens/product_reviews/widgets/progress_indicator_and_reviews.dart) | Dart | 35 | 1 | 3 | 39 |
 | [lib/fetaures/shop/screens/store/store.dart](/lib/fetaures/shop/screens/store/store.dart) | Dart | 94 | 3 | 5 | 102 |
 | [lib/main.dart](/lib/main.dart) | Dart | 5 | 0 | 2 | 7 |
 | [lib/navigation\_menu.dart](/lib/navigation_menu.dart) | Dart | 43 | 0 | 5 | 48 |
@@ -106,7 +125,7 @@ Total : 144 files,  5890 codes, 381 comments, 705 blanks, all 6976 lines
 | [lib/utils/constants/api\_constant.dart](/lib/utils/constants/api_constant.dart) | Dart | 3 | 0 | 1 | 4 |
 | [lib/utils/constants/colors.dart](/lib/utils/constants/colors.dart) | Dart | 36 | 9 | 11 | 56 |
 | [lib/utils/constants/enums.dart](/lib/utils/constants/enums.dart) | Dart | 11 | 0 | 3 | 14 |
-| [lib/utils/constants/image\_string.dart](/lib/utils/constants/image_string.dart) | Dart | 88 | 8 | 3 | 99 |
+| [lib/utils/constants/image\_string.dart](/lib/utils/constants/image_string.dart) | Dart | 92 | 9 | 3 | 104 |
 | [lib/utils/constants/sizes.dart](/lib/utils/constants/sizes.dart) | Dart | 39 | 15 | 9 | 63 |
 | [lib/utils/constants/text\_strings.dart](/lib/utils/constants/text_strings.dart) | Dart | 56 | 7 | 2 | 65 |
 | [lib/utils/device/device\_utilty.dart](/lib/utils/device/device_utilty.dart) | Dart | 101 | 9 | 25 | 135 |
@@ -136,7 +155,7 @@ Total : 144 files,  5890 codes, 381 comments, 705 blanks, all 6976 lines
 | [macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json](/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json) | JSON | 68 | 0 | 1 | 69 |
 | [macos/Runner/Base.lproj/MainMenu.xib](/macos/Runner/Base.lproj/MainMenu.xib) | XML | 343 | 0 | 1 | 344 |
 | [macos/Runner/MainFlutterWindow.swift](/macos/Runner/MainFlutterWindow.swift) | Swift | 12 | 0 | 4 | 16 |
-| [pubspec.yaml](/pubspec.yaml) | YAML | 45 | 1 | 15 | 61 |
+| [pubspec.yaml](/pubspec.yaml) | YAML | 47 | 1 | 15 | 63 |
 | [splash.yaml](/splash.yaml) | YAML | 11 | 0 | 6 | 17 |
 | [test/widget\_test.dart](/test/widget_test.dart) | Dart | 14 | 10 | 6 | 30 |
 | [web/index.html](/web/index.html) | HTML | 84 | 15 | 18 | 117 |
