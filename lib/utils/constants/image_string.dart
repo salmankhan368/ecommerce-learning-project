@@ -100,4 +100,6 @@ class SImage {
       'assets/icons/payment_Method/paypal-logo.png';
   static const String easypaisa =
       "assets/icons/payment_Method/Easypaisa-logo.png";
+  //json
+  static const String docer = 'assets/lotties/docer.json';
 }
