@@ -1,0 +1,36 @@
+"filename", "language", "YAML", "C++", "CMake", "Swift", "Dart", "JSON", "comment", "blank", "total"
+"d:\Profesional Flutter project Structure\s_store\android\app\google-services.json", "JSON", 0, 0, 0, 0, 0, 29, 0, 0, 29
+"d:\Profesional Flutter project Structure\s_store\assets\lotties\docer.json", "JSON", 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\Profesional Flutter project Structure\s_store\firebase.json", "JSON", 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\Profesional Flutter project Structure\s_store\lib\app.dart", "Dart", 0, 0, 0, 0, 5, 0, 0, 1, 6
+"d:\Profesional Flutter project Structure\s_store\lib\bindings\general_binding.dart", "Dart", 0, 0, 0, 0, 8, 0, 0, 2, 10
+"d:\Profesional Flutter project Structure\s_store\lib\common\widgets\brands\sbrand_card.dart", "Dart", 0, 0, 0, 0, 59, 0, 1, 3, 63
+"d:\Profesional Flutter project Structure\s_store\lib\common\widgets\loader\animation.loader.dart", "Dart", 0, 0, 0, 0, 44, 0, 0, 3, 47
+"d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\products_cards\product_card_horizontal.dart", "Dart", 0, 0, 0, 0, 2, 0, 0, 0, 2
+"d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\products_cards\product_card_verticle.dart", "Dart", 0, 0, 0, 0, -1, 0, 0, 0, -1
+"d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\sortable\sortable.dart", "Dart", 0, 0, 0, 0, 42, 0, 0, 3, 45
+"d:\Profesional Flutter project Structure\s_store\lib\common\widgets\text\sbrand_card.dart", "Dart", 0, 0, 0, 0, -59, 0, -1, -3, -63
+"d:\Profesional Flutter project Structure\s_store\lib\data\repository\repository.authentication\authentication_repository.dart", "Dart", 0, 0, 0, 0, 25, 0, 4, 5, 34
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\network\network_manger.dart", "Dart", 0, 0, 0, 0, 44, 0, 5, 12, 61
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\onboarding.controller.dart", "Dart", 0, 0, 0, 0, 8, 0, 4, 0, 12
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\sign_up_controller .dart", "Dart", 0, 0, 0, 0, 42, 0, 5, 4, 51
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_brands\all_brands.dart", "Dart", 0, 0, 0, 0, 33, 0, 0, 3, 36
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_brands\brands_product.dart", "Dart", 0, 0, 0, 0, 23, 0, 0, 3, 26
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_products\all_products.dart", "Dart", 0, 0, 0, 0, 17, 0, 0, 3, 20
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\cart\cart_screen.dart", "Dart", 0, 0, 0, 0, -2, 0, 0, 1, -1
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\home\home.dart", "Dart", 0, 0, 0, 0, 5, 0, 0, 0, 5
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\store\store.dart", "Dart", 0, 0, 0, 0, 3, 0, 0, 0, 3
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\sub_catogories\sub_categories.dart", "Dart", 0, 0, 0, 0, 10, 0, 0, 0, 10
+"d:\Profesional Flutter project Structure\s_store\lib\firebase_options.dart", "Dart", 0, 0, 0, 0, 58, 0, 12, 5, 75
+"d:\Profesional Flutter project Structure\s_store\lib\main.dart", "Dart", 0, 0, 0, 0, 13, 0, 4, 2, 19
+"d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\signup_form.dart", "Dart", 0, 0, 0, 0, 32, 0, 1, 1, 34
+"d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\terms.and.condition.checkbox.dart", "Dart", 0, 0, 0, 0, 9, 0, 0, 0, 9
+"d:\Profesional Flutter project Structure\s_store\lib\utils\constants\image_string.dart", "Dart", 0, 0, 0, 0, 1, 0, 1, 0, 2
+"d:\Profesional Flutter project Structure\s_store\lib\utils\popUp\full_screen_loader.dart", "Dart", 0, 0, 0, 0, 32, 0, 0, 4, 36
+"d:\Profesional Flutter project Structure\s_store\lib\utils\popUp\loader.dart", "Dart", 0, 0, 0, 0, 76, 0, 0, 6, 82
+"d:\Profesional Flutter project Structure\s_store\lib\utils\validators\validation.dart", "Dart", 0, 0, 0, 0, 46, 0, 3, 6, 55
+"d:\Profesional Flutter project Structure\s_store\macos\Flutter\GeneratedPluginRegistrant.swift", "Swift", 0, 0, 0, 10, 0, 0, 0, 0, 10
+"d:\Profesional Flutter project Structure\s_store\pubspec.yaml", "YAML", 7, 0, 0, 0, 0, 0, 0, -1, 6
+"d:\Profesional Flutter project Structure\s_store\windows\flutter\generated_plugin_registrant.cc", "C++", 0, 12, 0, 0, 0, 0, 0, 0, 12
+"d:\Profesional Flutter project Structure\s_store\windows\flutter\generated_plugins.cmake", "CMake", 0, 0, 4, 0, 0, 0, 0, 0, 4
+"Total", "-", 7, 12, 4, 10, 575, 31, 39, 63, 741

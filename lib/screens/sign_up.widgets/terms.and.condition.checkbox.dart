@@ -15,43 +15,45 @@ class STermsAndConditionsCheckbox extends StatelessWidget {
     return Row(
       children: [
         SizedBox(
-          width: 0,
-          height: 0,
+          width: 24,
+          height: 24,
           child: Obx(
             () => Checkbox(
-              value: true,
-              onChanged: (value) => controller.privacyPolicy.value =
-                  !controller.privacyPolicy.value,
+              value: controller.privacyPolicy.value,
+              onChanged: (value) =>
+                  controller.privacyPolicy.value = value ?? false,
             ),
           ),
         ),
-        SizedBox(width: Ssizes.spacebtwItem),
-        Text.rich(
-          TextSpan(
-            children: [
-              TextSpan(
-                text: '${SText.iAgreeeto} ',
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
-              TextSpan(
-                text: SText.privacyPolicy,
-                style: Theme.of(context).textTheme.bodyMedium!.apply(
-                  color: dark ? SColors.white : SColors.primary,
-                  decoration: TextDecoration.underline,
+        SizedBox(width: Ssizes.spacebtwItem / 3),
+        Flexible(
+          child: Text.rich(
+            TextSpan(
+              children: [
+                TextSpan(
+                  text: '${SText.iAgreeeto} ',
+                  style: Theme.of(context).textTheme.bodySmall,
                 ),
-              ),
-              TextSpan(
-                text: ' ${SText.and} ',
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
-              TextSpan(
-                text: ' ${SText.termofuse}',
-                style: Theme.of(context).textTheme.bodyMedium!.apply(
-                  decorationColor: dark ? SColors.white : SColors.primary,
-                  decoration: TextDecoration.underline,
+                TextSpan(
+                  text: SText.privacyPolicy,
+                  style: Theme.of(context).textTheme.bodyMedium!.apply(
+                    color: dark ? SColors.white : SColors.primary,
+                    decoration: TextDecoration.underline,
+                  ),
                 ),
-              ),
-            ],
+                TextSpan(
+                  text: ' ${SText.and} ',
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+                TextSpan(
+                  text: ' ${SText.termofuse}',
+                  style: Theme.of(context).textTheme.bodyMedium!.apply(
+                    decorationColor: dark ? SColors.white : SColors.primary,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ],

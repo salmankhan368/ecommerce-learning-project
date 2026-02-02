@@ -1,14 +1,21 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:s_store/screens/Screen.onBoarding/login/login_screen.dart';
 import 'package:s_store/screens/Screen.onBoarding/onboarding.dart';
+import 'package:s_store/utils/exception/firebase_auth_exception.dart';
+import 'package:s_store/utils/exception/firebase_exceptions.dart';
+import 'package:s_store/utils/exception/format_exceptions.dart';
+import 'package:s_store/utils/exception/platform_exceptions.dart';
 
 class AuthenticationRepository extends GetxController {
   static AuthenticationRepository get instance => Get.find();
   //variable
   final deviceStorage = GetStorage();
+  final _auth = FirebaseAuth.instance;
   //
   @override
   void onReady() {
@@ -29,5 +36,24 @@ class AuthenticationRepository extends GetxController {
     deviceStorage.read('IsFirstTime') != true
         ? Get.off(() => LoginScreen())
         : Get.off(() => OnboardingScreen());
+  }
+
+  /*-----------------------Email and passwpord login*/
+  /*Email authentication*/
+  Future<UserCredential> registerEmailAndPassword(String email, password) {
+    try {
+      return _auth.createUserWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
+    } on FirebaseAuthException catch (e) {
+      throw SFirebaseAuthException(e.code).message;
+    } on FirebaseException catch (e) {
+      throw SFirebaseException(e.code).message;
+    } on FormatException catch (_) {
+      throw SFormatException();
+    } on PlatformException catch (e) {
+      throw SPlatformException(e.code).message;
+    }
   }
 }

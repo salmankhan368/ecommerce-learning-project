@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:s_store/common/widgets/app.bar/app_bar.dart';
 import 'package:s_store/common/widgets/brands/sbrand_card.dart';
-import 'package:s_store/common/widgets/products/sortable/sortable.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 
 class BrandsProduct extends StatelessWidget {

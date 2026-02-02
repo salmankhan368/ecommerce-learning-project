@@ -1,6 +1,10 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
+import 'package:s_store/data/repository/repository.authentication/authentication_repository.dart';
+import 'package:s_store/data/repository/user/user_repository.dart';
 import 'package:s_store/fetaures/authentication/controllers.onboarding/network/network_manger.dart';
+import 'package:s_store/fetaures/personalization/models/user_model.dart';
+import 'package:s_store/screens/Screen.onBoarding/login/signup/widgets/verify_email.dart';
 import 'package:s_store/utils/constants/image_string.dart';
 import 'package:s_store/utils/popUp/full_screen_loader.dart';
 import 'package:s_store/utils/popUp/loader.dart';
@@ -17,6 +21,7 @@ class SignUpController extends GetxController {
   final email = TextEditingController();
   final phoneNumber = TextEditingController();
   final password = TextEditingController();
+  final profilePicture = TextEditingController();
   GlobalKey<FormState> signupFormKey = GlobalKey<FormState>();
   //signup FUnction
   Future<void> signup() async {
@@ -27,24 +32,54 @@ class SignUpController extends GetxController {
       );
       //chek internet
       final isConnected = await NetworkManager.instance.isConnected();
-      if (!isConnected)
-        // SFullScreenLoader.stopLoading();
+      if (!isConnected) {
+        SFullScreenLoader.stopLoading();
         return;
+      }
 
-      if (!signupFormKey.currentState!.validate())
-        //  SFullScreenLoader.stopLoading();
+      if (!signupFormKey.currentState!.validate()) {
+        SFullScreenLoader.stopLoading();
         return;
+      }
       if (!privacyPolicy.value) {
-        return SLoaders.warningSnackBar(
+        SLoaders.warningSnackBar(
           title: 'Accept privacy policy',
           message:
               'In order to create account,you must have to read and accept privacy policy & term of use',
         );
+        return;
       }
-    } catch (e) {
-      SLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
-    } finally {
+
+      ///register user in the firebase authentication .and save user data in firebase .
+      final userCredential = await AuthenticationRepository.instance
+          .registerEmailAndPassword(email.text.trim(), password.text.trim());
+      final newUser = UserModel(
+        id: userCredential.user!.uid,
+        username: userName.text.trim(),
+        email: email.text.trim(),
+        firstName: firstName.text.trim(),
+        lastName: lastName.text.trim(),
+        phoneNumber: phoneNumber.text.trim(),
+        profilePicture: "",
+      );
+      final userRepository = Get.put(UserRepository());
+      await userRepository.saveUserRecord(newUser);
+      //show sucees snakbar
       SFullScreenLoader.stopLoading();
+      SLoaders.successSnackBar(
+        title: "Congratulations",
+        message: "Your account has been created! verify email to continue",
+      );
+      Get.to(() => VerifyEmail());
+    } catch (e) {
+      SFullScreenLoader.stopLoading();
+      SLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     }
+  }
+
+  @override
+  void onClose() {
+    SFullScreenLoader.stopLoading();
+    super.onClose();
   }
 }
