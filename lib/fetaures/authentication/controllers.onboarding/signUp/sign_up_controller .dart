@@ -13,6 +13,7 @@ class SignUpController extends GetxController {
   static SignUpController get instance => Get.find();
 
   ///Variable
+  final isLoading = false.obs;
   final hidePassword = true.obs;
   final privacyPolicy = true.obs;
   final firstName = TextEditingController();
@@ -26,6 +27,8 @@ class SignUpController extends GetxController {
   //signup FUnction
   Future<void> signup() async {
     try {
+      isLoading.value = true;
+      await Future.delayed(Duration(seconds: 5));
       SFullScreenLoader.openLoadingDialog(
         'We are processing your information...',
         SImage.docer,
@@ -33,15 +36,18 @@ class SignUpController extends GetxController {
       //chek internet
       final isConnected = await NetworkManager.instance.isConnected();
       if (!isConnected) {
+        isLoading.value = false;
         SFullScreenLoader.stopLoading();
         return;
       }
 
       if (!signupFormKey.currentState!.validate()) {
+        isLoading.value = false;
         SFullScreenLoader.stopLoading();
         return;
       }
       if (!privacyPolicy.value) {
+        isLoading.value = false;
         SLoaders.warningSnackBar(
           title: 'Accept privacy policy',
           message:
@@ -53,6 +59,7 @@ class SignUpController extends GetxController {
       ///register user in the firebase authentication .and save user data in firebase .
       final userCredential = await AuthenticationRepository.instance
           .registerEmailAndPassword(email.text.trim(), password.text.trim());
+      await userCredential.user!.sendEmailVerification();
       final newUser = UserModel(
         id: userCredential.user!.uid,
         username: userName.text.trim(),
@@ -66,20 +73,16 @@ class SignUpController extends GetxController {
       await userRepository.saveUserRecord(newUser);
       //show sucees snakbar
       SFullScreenLoader.stopLoading();
+      isLoading.value = false;
       SLoaders.successSnackBar(
         title: "Congratulations",
         message: "Your account has been created! verify email to continue",
       );
-      Get.to(() => VerifyEmail());
+      Get.to(() => VerifyEmail(email: email.text.trim()));
     } catch (e) {
+      isLoading.value = false;
       SFullScreenLoader.stopLoading();
       SLoaders.errorSnackBar(title: 'Oh Snap!', message: e.toString());
     }
-  }
-
-  @override
-  void onClose() {
-    SFullScreenLoader.stopLoading();
-    super.onClose();
   }
 }

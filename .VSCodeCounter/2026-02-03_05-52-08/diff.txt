@@ -1,0 +1,57 @@
+Date : 2026-02-03 05:52:08
+Directory : d:\Profesional Flutter project Structure\s_store
+Total : 14 files,  543 codes, 31 comments, 47 blanks, all 621 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         14 |        543 |         31 |         47 |        621 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                       |         14 |        543 |         31 |         47 |        621 |
+| lib                                                                                                                                     |         14 |        543 |         31 |         47 |        621 |
+| lib\data                                                                                                                                |          2 |         64 |          4 |          4 |         72 |
+| lib\data\repository                                                                                                                     |          2 |         64 |          4 |          4 |         72 |
+| lib\data\repository\repository.authentication                                                                                           |          1 |         40 |          3 |          2 |         45 |
+| lib\data\repository\user                                                                                                                |          1 |         24 |          1 |          2 |         27 |
+| lib\fetaures                                                                                                                            |          4 |        105 |          3 |         15 |        123 |
+| lib\fetaures\authentication                                                                                                             |          2 |         41 |          0 |          4 |         45 |
+| lib\fetaures\authentication\controllers.onboarding                                                                                      |          2 |         41 |          0 |          4 |         45 |
+| lib\fetaures\authentication\controllers.onboarding\signUp                                                                               |          2 |         41 |          0 |          4 |         45 |
+| lib\fetaures\personalization                                                                                                            |          1 |         65 |          3 |         11 |         79 |
+| lib\fetaures\personalization\models                                                                                                     |          1 |         65 |          3 |         11 |         79 |
+| lib\fetaures\shop                                                                                                                       |          1 |         -1 |          0 |          0 |         -1 |
+| lib\fetaures\shop\screens                                                                                                               |          1 |         -1 |          0 |          0 |         -1 |
+| lib\fetaures\shop\screens\all_brands                                                                                                    |          1 |         -1 |          0 |          0 |         -1 |
+| lib\screens                                                                                                                             |          2 |          1 |          0 |          0 |          1 |
+| lib\screens\sign_up.widgets                                                                                                             |          2 |          1 |          0 |          0 |          1 |
+| lib\utils                                                                                                                               |          6 |        373 |         24 |         28 |        425 |
+| lib\utils\exception                                                                                                                     |          5 |        313 |         17 |         15 |        345 |
+| lib\utils\formatters                                                                                                                    |          1 |         60 |          7 |         13 |         80 |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                                | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Profesional Flutter project Structure\s_store\lib\data\repository\repository.authentication\authentication_repository.dart           | Dart     |         40 |          3 |          2 |         45 |
+| d:\Profesional Flutter project Structure\s_store\lib\data\repository\user\user_repository.dart                                          | Dart     |         24 |          1 |          2 |         27 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\sign_up_controller .dart     | Dart     |         33 |          0 |          2 |         35 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\verify.email.controller.dart | Dart     |          8 |          0 |          2 |         10 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\models\user_model.dart                                    | Dart     |         65 |          3 |         11 |         79 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_brands\brands_product.dart                               | Dart     |         -1 |          0 |          0 |         -1 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\signup_form.dart                                           | Dart     |         -1 |          0 |          0 |         -1 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\terms.and.condition.checkbox.dart                          | Dart     |          2 |          0 |          0 |          2 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\exceptions.dart                                                    | Dart     |         50 |          4 |          3 |         57 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\firebase_auth_exception.dart                                       | Dart     |         90 |          0 |          1 |         91 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\firebase_exceptions.dart                                           | Dart     |         94 |          4 |          3 |        101 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\format_exceptions.dart                                             | Dart     |         41 |          7 |          5 |         53 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\platform_exceptions.dart                                           | Dart     |         38 |          2 |          3 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\formatters\formatter.dart                                                    | Dart     |         60 |          7 |         13 |         80 |
+| Total                                                                                                                                   |          |        543 |         31 |         47 |        621 |
++-----------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

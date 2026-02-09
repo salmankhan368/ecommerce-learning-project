@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:s_store/fetaures/authentication/controllers.onboarding/signUp/sign_up_controller%20.dart';
 import 'package:s_store/screens/sign_up.widgets/terms.and.condition.checkbox.dart';
+import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 import 'package:s_store/utils/constants/text_strings.dart';
 import 'package:s_store/utils/validators/validation.dart';
@@ -12,6 +13,7 @@ class SSignupForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(SignUpController());
+    // final controller = SignUpController.instance;
     return SingleChildScrollView(
       child: Form(
         key: controller.signupFormKey,
@@ -115,11 +117,27 @@ class SSignupForm extends StatelessWidget {
             SizedBox(height: Ssizes.spacebtwSection),
 
             ///signup button
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: () => controller.signup(),
-                child: Text(SText.createAcc),
+            Obx(
+              () => SizedBox(
+                height: 50,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {
+                    if (controller.isLoading.value) return;
+
+                    controller.signup();
+                  },
+                  child: controller.isLoading.value
+                      ? SizedBox(
+                          height: 22,
+                          width: 22,
+                          child: CircularProgressIndicator(
+                            strokeWidth: 2,
+                            color: SColors.white,
+                          ),
+                        )
+                      : Text(SText.createAcc),
+                ),
               ),
             ),
           ],

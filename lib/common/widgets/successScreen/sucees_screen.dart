@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:s_store/common/style/spacing_style.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 import 'package:s_store/utils/constants/text_strings.dart';
@@ -24,10 +25,7 @@ class SuccessScreen extends StatelessWidget {
           child: Column(
             children: [
               ///image for suceess
-              Image(
-                width: SHelperFunctions.screenWidth() * 0.5,
-                image: AssetImage(image),
-              ),
+              Lottie.asset(width: SHelperFunctions.screenWidth() * 0.8, image),
               SizedBox(height: Ssizes.spacebtwSection),
               //title and subtile
               Text(

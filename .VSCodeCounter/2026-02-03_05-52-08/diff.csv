@@ -1,0 +1,16 @@
+"filename", "language", "Dart", "comment", "blank", "total"
+"d:\Profesional Flutter project Structure\s_store\lib\data\repository\repository.authentication\authentication_repository.dart", "Dart", 40, 3, 2, 45
+"d:\Profesional Flutter project Structure\s_store\lib\data\repository\user\user_repository.dart", "Dart", 24, 1, 2, 27
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\sign_up_controller .dart", "Dart", 33, 0, 2, 35
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\verify.email.controller.dart", "Dart", 8, 0, 2, 10
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\models\user_model.dart", "Dart", 65, 3, 11, 79
+"d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_brands\brands_product.dart", "Dart", -1, 0, 0, -1
+"d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\signup_form.dart", "Dart", -1, 0, 0, -1
+"d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\terms.and.condition.checkbox.dart", "Dart", 2, 0, 0, 2
+"d:\Profesional Flutter project Structure\s_store\lib\utils\exception\exceptions.dart", "Dart", 50, 4, 3, 57
+"d:\Profesional Flutter project Structure\s_store\lib\utils\exception\firebase_auth_exception.dart", "Dart", 90, 0, 1, 91
+"d:\Profesional Flutter project Structure\s_store\lib\utils\exception\firebase_exceptions.dart", "Dart", 94, 4, 3, 101
+"d:\Profesional Flutter project Structure\s_store\lib\utils\exception\format_exceptions.dart", "Dart", 41, 7, 5, 53
+"d:\Profesional Flutter project Structure\s_store\lib\utils\exception\platform_exceptions.dart", "Dart", 38, 2, 3, 43
+"d:\Profesional Flutter project Structure\s_store\lib\utils\formatters\formatter.dart", "Dart", 60, 7, 13, 80
+"Total", "-", 543, 31, 47, 621
