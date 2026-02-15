@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:s_store/fetaures/authentication/controllers/Forget/forget_controller.dart';
 import 'package:s_store/screens/Screen.onBoarding/login/login_screen.dart';
 import 'package:s_store/utils/constants/image_string.dart';
 import 'package:s_store/utils/constants/sizes.dart';
@@ -7,8 +8,8 @@ import 'package:s_store/utils/constants/text_strings.dart';
 import 'package:s_store/utils/helpers/helper_functions.dart';
 
 class ResetPasswordScreen extends StatelessWidget {
-  const ResetPasswordScreen({super.key});
-
+  const ResetPasswordScreen({super.key, required this.email});
+  final String email;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +39,7 @@ class ResetPasswordScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () => Get.to(() => LoginScreen()),
+                onPressed: () => Get.offAll(() => LoginScreen()),
                 child: Text(SText.done),
               ),
             ),
@@ -46,7 +47,8 @@ class ResetPasswordScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: TextButton(
-                onPressed: () => Get.to(() => LoginScreen()),
+                onPressed: () => ForgetPasswordController.instance
+                    .resendPasswordResetEmail(email),
                 child: Text(SText.resendemail),
               ),
             ),

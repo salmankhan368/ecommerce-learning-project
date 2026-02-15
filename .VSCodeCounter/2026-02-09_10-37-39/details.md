@@ -1,10 +1,10 @@
 # Details
 
-Date : 2026-01-06 03:02:01
+Date : 2026-02-09 10:37:39
 
 Directory d:\\Profesional Flutter project Structure\\s_store
 
-Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
+Total : 189 files,  8338 codes, 476 comments, 886 blanks, all 9700 lines
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -13,6 +13,7 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | [README.md](/README.md) | Markdown | 15 | 0 | 7 | 22 |
 | [analysis\_options.yaml](/analysis_options.yaml) | YAML | 3 | 22 | 4 | 29 |
+| [android/app/google-services.json](/android/app/google-services.json) | JSON | 29 | 0 | 0 | 29 |
 | [android/app/src/debug/AndroidManifest.xml](/android/app/src/debug/AndroidManifest.xml) | XML | 3 | 4 | 1 | 8 |
 | [android/app/src/main/AndroidManifest.xml](/android/app/src/main/AndroidManifest.xml) | XML | 34 | 11 | 1 | 46 |
 | [android/app/src/main/res/drawable-night-v21/launch\_background.xml](/android/app/src/main/res/drawable-night-v21/launch_background.xml) | XML | 9 | 0 | 1 | 10 |
@@ -27,6 +28,9 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [android/gradle.properties](/android/gradle.properties) | Properties | 3 | 0 | 1 | 4 |
 | [android/gradle/wrapper/gradle-wrapper.properties](/android/gradle/wrapper/gradle-wrapper.properties) | Properties | 5 | 0 | 1 | 6 |
 | [assets/Animation/email sent.json](/assets/Animation/email%20sent.json) | JSON | 1 | 0 | 0 | 1 |
+| [assets/lotties/docer.json](/assets/lotties/docer.json) | JSON | 1 | 0 | 0 | 1 |
+| [assets/lotties/succesReg.json](/assets/lotties/succesReg.json) | JSON | 1 | 0 | 0 | 1 |
+| [firebase.json](/firebase.json) | JSON | 1 | 0 | 0 | 1 |
 | [ios/RunnerTests/RunnerTests.swift](/ios/RunnerTests/RunnerTests.swift) | Swift | 7 | 2 | 4 | 13 |
 | [ios/Runner/AppDelegate.swift](/ios/Runner/AppDelegate.swift) | Swift | 12 | 0 | 2 | 14 |
 | [ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json](/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json) | JSON | 122 | 0 | 1 | 123 |
@@ -36,7 +40,8 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [ios/Runner/Base.lproj/LaunchScreen.storyboard](/ios/Runner/Base.lproj/LaunchScreen.storyboard) | XML | 43 | 1 | 1 | 45 |
 | [ios/Runner/Base.lproj/Main.storyboard](/ios/Runner/Base.lproj/Main.storyboard) | XML | 25 | 1 | 1 | 27 |
 | [ios/Runner/Runner-Bridging-Header.h](/ios/Runner/Runner-Bridging-Header.h) | C++ | 1 | 0 | 1 | 2 |
-| [lib/app.dart](/lib/app.dart) | Dart | 17 | 0 | 3 | 20 |
+| [lib/app.dart](/lib/app.dart) | Dart | 22 | 0 | 4 | 26 |
+| [lib/bindings/general\_binding.dart](/lib/bindings/general_binding.dart) | Dart | 8 | 0 | 2 | 10 |
 | [lib/common/Icon/s\_circuler\_icon.dart](/lib/common/Icon/s_circuler_icon.dart) | Dart | 40 | 0 | 4 | 44 |
 | [lib/common/images/s.circuler.image.dart](/lib/common/images/s.circuler.image.dart) | Dart | 43 | 0 | 4 | 47 |
 | [lib/common/images/s\_round\_image.dart](/lib/common/images/s_round_image.dart) | Dart | 58 | 0 | 4 | 62 |
@@ -49,6 +54,7 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/common/widgets/app.bar/app\_bar.dart](/lib/common/widgets/app.bar/app_bar.dart) | Dart | 45 | 1 | 4 | 50 |
 | [lib/common/widgets/app.bar/tabbar.dart](/lib/common/widgets/app.bar/tabbar.dart) | Dart | 23 | 1 | 4 | 28 |
 | [lib/common/widgets/brands/brands\_showcase.dart](/lib/common/widgets/brands/brands_showcase.dart) | Dart | 45 | 2 | 4 | 51 |
+| [lib/common/widgets/brands/sbrand\_card.dart](/lib/common/widgets/brands/sbrand_card.dart) | Dart | 59 | 1 | 3 | 63 |
 | [lib/common/widgets/chip/chip\_choices.dart](/lib/common/widgets/chip/chip_choices.dart) | Dart | 42 | 5 | 6 | 53 |
 | [lib/common/widgets/custom\_shape/containers/circuler\_container.dart](/lib/common/widgets/custom_shape/containers/circuler_container.dart) | Dart | 34 | 0 | 4 | 38 |
 | [lib/common/widgets/custom\_shape/containers/primary\_header\_container.dart](/lib/common/widgets/custom_shape/containers/primary_header_container.dart) | Dart | 36 | 0 | 2 | 38 |
@@ -59,17 +65,24 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/common/widgets/image\_text.widget/vertical\_image\_text.dart](/lib/common/widgets/image_text.widget/vertical_image_text.dart) | Dart | 55 | 2 | 5 | 62 |
 | [lib/common/widgets/list\_tile/setting\_menu.dart](/lib/common/widgets/list_tile/setting_menu.dart) | Dart | 26 | 0 | 3 | 29 |
 | [lib/common/widgets/list\_tile/user\_profile.dart](/lib/common/widgets/list_tile/user_profile.dart) | Dart | 36 | 0 | 3 | 39 |
-| [lib/common/widgets/products/products\_cards/product\_card\_horizontal.dart](/lib/common/widgets/products/products_cards/product_card_horizontal.dart) | Dart | 0 | 0 | 2 | 2 |
-| [lib/common/widgets/products/products\_cards/product\_card\_verticle.dart](/lib/common/widgets/products/products_cards/product_card_verticle.dart) | Dart | 115 | 3 | 4 | 122 |
+| [lib/common/widgets/loader/animation.loader.dart](/lib/common/widgets/loader/animation.loader.dart) | Dart | 44 | 0 | 3 | 47 |
+| [lib/common/widgets/products/products\_cards/product\_card\_horizontal.dart](/lib/common/widgets/products/products_cards/product_card_horizontal.dart) | Dart | 129 | 2 | 4 | 135 |
+| [lib/common/widgets/products/products\_cards/product\_card\_verticle.dart](/lib/common/widgets/products/products_cards/product_card_verticle.dart) | Dart | 114 | 3 | 4 | 121 |
 | [lib/common/widgets/products/rating/rating\_bar\_indicator.dart](/lib/common/widgets/products/rating/rating_bar_indicator.dart) | Dart | 17 | 0 | 3 | 20 |
-| [lib/common/widgets/successScreen/sucees\_screen.dart](/lib/common/widgets/successScreen/sucees_screen.dart) | Dart | 54 | 2 | 3 | 59 |
+| [lib/common/widgets/products/sortable/sortable.dart](/lib/common/widgets/products/sortable/sortable.dart) | Dart | 42 | 0 | 3 | 45 |
+| [lib/common/widgets/successScreen/sucees\_screen.dart](/lib/common/widgets/successScreen/sucees_screen.dart) | Dart | 52 | 2 | 3 | 57 |
 | [lib/common/widgets/text/S.brand\_title\_text.verified.dart](/lib/common/widgets/text/S.brand_title_text.verified.dart) | Dart | 41 | 5 | 4 | 50 |
 | [lib/common/widgets/text/Sproduct\_price.dart](/lib/common/widgets/text/Sproduct_price.dart) | Dart | 30 | 0 | 3 | 33 |
 | [lib/common/widgets/text/product\_tile\_text.dart](/lib/common/widgets/text/product_tile_text.dart) | Dart | 26 | 0 | 3 | 29 |
 | [lib/common/widgets/text/s.brand.title.text.dart](/lib/common/widgets/text/s.brand.title.text.dart) | Dart | 33 | 1 | 3 | 37 |
-| [lib/common/widgets/text/sbrand\_card.dart](/lib/common/widgets/text/sbrand_card.dart) | Dart | 59 | 1 | 3 | 63 |
-| [lib/common/widgets/text/section\_heading.dart](/lib/common/widgets/text/section_heading.dart) | Dart | 32 | 0 | 3 | 35 |
-| [lib/fetaures/authentication/controllers.onboarding/onboarding.controller.dart](/lib/fetaures/authentication/controllers.onboarding/onboarding.controller.dart) | Dart | 28 | 9 | 6 | 43 |
+| [lib/common/widgets/text/section\_heading.dart](/lib/common/widgets/text/section_heading.dart) | Dart | 34 | 0 | 3 | 37 |
+| [lib/data/repository/repository.authentication/authentication\_repository.dart](/lib/data/repository/repository.authentication/authentication_repository.dart) | Dart | 92 | 8 | 8 | 108 |
+| [lib/data/repository/user/user\_repository.dart](/lib/data/repository/user/user_repository.dart) | Dart | 24 | 1 | 2 | 27 |
+| [lib/fetaures/authentication/controllers.onboarding/network/network\_manger.dart](/lib/fetaures/authentication/controllers.onboarding/network/network_manger.dart) | Dart | 44 | 5 | 12 | 61 |
+| [lib/fetaures/authentication/controllers.onboarding/onboarding.controller.dart](/lib/fetaures/authentication/controllers.onboarding/onboarding.controller.dart) | Dart | 36 | 13 | 6 | 55 |
+| [lib/fetaures/authentication/controllers.onboarding/signUp/sign\_up\_controller .dart](/lib/fetaures/authentication/controllers.onboarding/signUp/sign_up_controller%20.dart) | Dart | 79 | 5 | 5 | 89 |
+| [lib/fetaures/authentication/controllers.onboarding/signUp/verify.email.controller.dart](/lib/fetaures/authentication/controllers.onboarding/signUp/verify.email.controller.dart) | Dart | 64 | 3 | 6 | 73 |
+| [lib/fetaures/personalization/models/user\_model.dart](/lib/fetaures/personalization/models/user_model.dart) | Dart | 65 | 3 | 11 | 79 |
 | [lib/fetaures/personalization/screens/address/address.dart](/lib/fetaures/personalization/screens/address/address.dart) | Dart | 40 | 0 | 3 | 43 |
 | [lib/fetaures/personalization/screens/address/address.new.dart](/lib/fetaures/personalization/screens/address/address.new.dart) | Dart | 105 | 0 | 3 | 108 |
 | [lib/fetaures/personalization/screens/address/widget/single\_adress.dart](/lib/fetaures/personalization/screens/address/widget/single_adress.dart) | Dart | 70 | 0 | 4 | 74 |
@@ -78,7 +91,10 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/fetaures/personalization/screens/setting/setting.dart](/lib/fetaures/personalization/screens/setting/setting.dart) | Dart | 136 | 2 | 3 | 141 |
 | [lib/fetaures/shop/controller/homeController/home\_controller.dart](/lib/fetaures/shop/controller/homeController/home_controller.dart) | Dart | 8 | 0 | 2 | 10 |
 | [lib/fetaures/shop/screens/Wishlist/whish\_list.dart](/lib/fetaures/shop/screens/Wishlist/whish_list.dart) | Dart | 40 | 0 | 3 | 43 |
-| [lib/fetaures/shop/screens/cart/cart\_screen.dart](/lib/fetaures/shop/screens/cart/cart_screen.dart) | Dart | 31 | 0 | 2 | 33 |
+| [lib/fetaures/shop/screens/all\_brands/all\_brands.dart](/lib/fetaures/shop/screens/all_brands/all_brands.dart) | Dart | 33 | 0 | 3 | 36 |
+| [lib/fetaures/shop/screens/all\_brands/brands\_product.dart](/lib/fetaures/shop/screens/all_brands/brands_product.dart) | Dart | 22 | 0 | 3 | 25 |
+| [lib/fetaures/shop/screens/all\_products/all\_products.dart](/lib/fetaures/shop/screens/all_products/all_products.dart) | Dart | 17 | 0 | 3 | 20 |
+| [lib/fetaures/shop/screens/cart/cart\_screen.dart](/lib/fetaures/shop/screens/cart/cart_screen.dart) | Dart | 29 | 0 | 3 | 32 |
 | [lib/fetaures/shop/screens/cart/widgets/cart\_button.dart](/lib/fetaures/shop/screens/cart/widgets/cart_button.dart) | Dart | 39 | 0 | 3 | 42 |
 | [lib/fetaures/shop/screens/cart/widgets/coupon\_widget.dart](/lib/fetaures/shop/screens/cart/widgets/coupon_widget.dart) | Dart | 51 | 0 | 3 | 54 |
 | [lib/fetaures/shop/screens/cart/widgets/s\_cart\_item.dart](/lib/fetaures/shop/screens/cart/widgets/s_cart_item.dart) | Dart | 72 | 0 | 3 | 75 |
@@ -87,13 +103,13 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/fetaures/shop/screens/checkout/widgets/billing\_address\_section.dart](/lib/fetaures/shop/screens/checkout/widgets/billing_address_section.dart) | Dart | 44 | 0 | 3 | 47 |
 | [lib/fetaures/shop/screens/checkout/widgets/billing\_amount\_section.dart](/lib/fetaures/shop/screens/checkout/widgets/billing_amount_section.dart) | Dart | 35 | 0 | 3 | 38 |
 | [lib/fetaures/shop/screens/checkout/widgets/billing\_payment\_section.dart](/lib/fetaures/shop/screens/checkout/widgets/billing_payment_section.dart) | Dart | 42 | 0 | 3 | 45 |
-| [lib/fetaures/shop/screens/home/home.dart](/lib/fetaures/shop/screens/home/home.dart) | Dart | 74 | 7 | 4 | 85 |
+| [lib/fetaures/shop/screens/home/home.dart](/lib/fetaures/shop/screens/home/home.dart) | Dart | 79 | 7 | 4 | 90 |
 | [lib/fetaures/shop/screens/home/widget/home\_appbar.dart](/lib/fetaures/shop/screens/home/widget/home_appbar.dart) | Dart | 37 | 0 | 3 | 40 |
-| [lib/fetaures/shop/screens/home/widget/home\_categories.dart](/lib/fetaures/shop/screens/home/widget/home_categories.dart) | Dart | 24 | 0 | 3 | 27 |
+| [lib/fetaures/shop/screens/home/widget/home\_categories.dart](/lib/fetaures/shop/screens/home/widget/home_categories.dart) | Dart | 26 | 0 | 3 | 29 |
 | [lib/fetaures/shop/screens/home/widget/promo\_slider.dart](/lib/fetaures/shop/screens/home/widget/promo_slider.dart) | Dart | 50 | 0 | 3 | 53 |
 | [lib/fetaures/shop/screens/home/widget/s\_catogries.dart](/lib/fetaures/shop/screens/home/widget/s_catogries.dart) | Dart | 41 | 1 | 3 | 45 |
 | [lib/fetaures/shop/screens/order/order.dart](/lib/fetaures/shop/screens/order/order.dart) | Dart | 22 | 0 | 3 | 25 |
-| [lib/fetaures/shop/screens/order/widgets/s.order.list.dart](/lib/fetaures/shop/screens/order/widgets/s.order.list.dart) | Dart | 52 | 0 | 3 | 55 |
+| [lib/fetaures/shop/screens/order/widgets/s.order.list.dart](/lib/fetaures/shop/screens/order/widgets/s.order.list.dart) | Dart | 106 | 0 | 4 | 110 |
 | [lib/fetaures/shop/screens/product\_detail/product\_attributes.dart](/lib/fetaures/shop/screens/product_detail/product_attributes.dart) | Dart | 115 | 2 | 4 | 121 |
 | [lib/fetaures/shop/screens/product\_detail/product\_detail.dart](/lib/fetaures/shop/screens/product_detail/product_detail.dart) | Dart | 92 | 4 | 6 | 102 |
 | [lib/fetaures/shop/screens/product\_detail/product\_meta\_data.dart](/lib/fetaures/shop/screens/product_detail/product_meta_data.dart) | Dart | 75 | 0 | 3 | 78 |
@@ -104,12 +120,14 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/fetaures/shop/screens/product\_reviews/rating\_progress\_indicator.dart](/lib/fetaures/shop/screens/product_reviews/rating_progress_indicator.dart) | Dart | 28 | 0 | 3 | 31 |
 | [lib/fetaures/shop/screens/product\_reviews/user\_review\_card.dart](/lib/fetaures/shop/screens/product_reviews/user_review_card.dart) | Dart | 103 | 1 | 3 | 107 |
 | [lib/fetaures/shop/screens/product\_reviews/widgets/progress\_indicator\_and\_reviews.dart](/lib/fetaures/shop/screens/product_reviews/widgets/progress_indicator_and_reviews.dart) | Dart | 35 | 1 | 3 | 39 |
-| [lib/fetaures/shop/screens/store/store.dart](/lib/fetaures/shop/screens/store/store.dart) | Dart | 94 | 3 | 5 | 102 |
-| [lib/main.dart](/lib/main.dart) | Dart | 5 | 0 | 2 | 7 |
+| [lib/fetaures/shop/screens/store/store.dart](/lib/fetaures/shop/screens/store/store.dart) | Dart | 97 | 3 | 5 | 105 |
+| [lib/fetaures/shop/screens/sub\_catogories/sub\_categories.dart](/lib/fetaures/shop/screens/sub_catogories/sub_categories.dart) | Dart | 44 | 0 | 3 | 47 |
+| [lib/firebase\_options.dart](/lib/firebase_options.dart) | Dart | 58 | 12 | 5 | 75 |
+| [lib/main.dart](/lib/main.dart) | Dart | 18 | 4 | 4 | 26 |
 | [lib/navigation\_menu.dart](/lib/navigation_menu.dart) | Dart | 43 | 0 | 5 | 48 |
 | [lib/screens/Screen.onBoarding/login/login\_screen.dart](/lib/screens/Screen.onBoarding/login/login_screen.dart) | Dart | 36 | 4 | 3 | 43 |
 | [lib/screens/Screen.onBoarding/login/signup/widgets/signup.dart](/lib/screens/Screen.onBoarding/login/signup/widgets/signup.dart) | Dart | 8 | 0 | 2 | 10 |
-| [lib/screens/Screen.onBoarding/login/signup/widgets/verify\_email.dart](/lib/screens/Screen.onBoarding/login/signup/widgets/verify_email.dart) | Dart | 80 | 1 | 3 | 84 |
+| [lib/screens/Screen.onBoarding/login/signup/widgets/verify\_email.dart](/lib/screens/Screen.onBoarding/login/signup/widgets/verify_email.dart) | Dart | 75 | 8 | 5 | 88 |
 | [lib/screens/Screen.onBoarding/login/widgets/login\_form.dart](/lib/screens/Screen.onBoarding/login/widgets/login_form.dart) | Dart | 74 | 0 | 4 | 78 |
 | [lib/screens/Screen.onBoarding/login/widgets/login\_header.dart](/lib/screens/Screen.onBoarding/login/widgets/login_header.dart) | Dart | 29 | 0 | 4 | 33 |
 | [lib/screens/Screen.onBoarding/onboarding.dart](/lib/screens/Screen.onBoarding/onboarding.dart) | Dart | 46 | 3 | 3 | 52 |
@@ -120,17 +138,24 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/screens/password\_configuration/forget\_password.dart](/lib/screens/password_configuration/forget_password.dart) | Dart | 52 | 1 | 4 | 57 |
 | [lib/screens/password\_configuration/reset\_password.dart](/lib/screens/password_configuration/reset_password.dart) | Dart | 52 | 4 | 3 | 59 |
 | [lib/screens/sign\_up.widgets/sign\_up.dart](/lib/screens/sign_up.widgets/sign_up.dart) | Dart | 40 | 2 | 3 | 45 |
-| [lib/screens/sign\_up.widgets/signup\_form.dart](/lib/screens/sign_up.widgets/signup_form.dart) | Dart | 90 | 4 | 4 | 98 |
-| [lib/screens/sign\_up.widgets/terms.and.condition.checkbox.dart](/lib/screens/sign_up.widgets/terms.and.condition.checkbox.dart) | Dart | 50 | 0 | 2 | 52 |
+| [lib/screens/sign\_up.widgets/signup\_form.dart](/lib/screens/sign_up.widgets/signup_form.dart) | Dart | 137 | 6 | 6 | 149 |
+| [lib/screens/sign\_up.widgets/terms.and.condition.checkbox.dart](/lib/screens/sign_up.widgets/terms.and.condition.checkbox.dart) | Dart | 61 | 0 | 2 | 63 |
 | [lib/utils/constants/api\_constant.dart](/lib/utils/constants/api_constant.dart) | Dart | 3 | 0 | 1 | 4 |
 | [lib/utils/constants/colors.dart](/lib/utils/constants/colors.dart) | Dart | 36 | 9 | 11 | 56 |
 | [lib/utils/constants/enums.dart](/lib/utils/constants/enums.dart) | Dart | 11 | 0 | 3 | 14 |
-| [lib/utils/constants/image\_string.dart](/lib/utils/constants/image_string.dart) | Dart | 92 | 9 | 3 | 104 |
+| [lib/utils/constants/image\_string.dart](/lib/utils/constants/image_string.dart) | Dart | 94 | 10 | 3 | 107 |
 | [lib/utils/constants/sizes.dart](/lib/utils/constants/sizes.dart) | Dart | 39 | 15 | 9 | 63 |
 | [lib/utils/constants/text\_strings.dart](/lib/utils/constants/text_strings.dart) | Dart | 56 | 7 | 2 | 65 |
 | [lib/utils/device/device\_utilty.dart](/lib/utils/device/device_utilty.dart) | Dart | 101 | 9 | 25 | 135 |
-| [lib/utils/formatters/formatter.dart](/lib/utils/formatters/formatter.dart) | Dart | 0 | 6 | 1 | 7 |
+| [lib/utils/exception/exceptions.dart](/lib/utils/exception/exceptions.dart) | Dart | 50 | 4 | 3 | 57 |
+| [lib/utils/exception/firebase\_auth\_exception.dart](/lib/utils/exception/firebase_auth_exception.dart) | Dart | 90 | 0 | 1 | 91 |
+| [lib/utils/exception/firebase\_exceptions.dart](/lib/utils/exception/firebase_exceptions.dart) | Dart | 94 | 4 | 3 | 101 |
+| [lib/utils/exception/format\_exceptions.dart](/lib/utils/exception/format_exceptions.dart) | Dart | 41 | 7 | 5 | 53 |
+| [lib/utils/exception/platform\_exceptions.dart](/lib/utils/exception/platform_exceptions.dart) | Dart | 38 | 2 | 3 | 43 |
+| [lib/utils/formatters/formatter.dart](/lib/utils/formatters/formatter.dart) | Dart | 60 | 13 | 14 | 87 |
 | [lib/utils/helpers/helper\_functions.dart](/lib/utils/helpers/helper_functions.dart) | Dart | 76 | 3 | 10 | 89 |
+| [lib/utils/popUp/full\_screen\_loader.dart](/lib/utils/popUp/full_screen_loader.dart) | Dart | 32 | 0 | 4 | 36 |
+| [lib/utils/popUp/loader.dart](/lib/utils/popUp/loader.dart) | Dart | 76 | 0 | 6 | 82 |
 | [lib/utils/theme/custom\_theme/appbar\_theme.dart](/lib/utils/theme/custom_theme/appbar_theme.dart) | Dart | 32 | 0 | 2 | 34 |
 | [lib/utils/theme/custom\_theme/bottom\_sheet.dart](/lib/utils/theme/custom_theme/bottom_sheet.dart) | Dart | 16 | 0 | 2 | 18 |
 | [lib/utils/theme/custom\_theme/checkbox\_theme.dart](/lib/utils/theme/custom_theme/checkbox_theme.dart) | Dart | 21 | 0 | 2 | 23 |
@@ -140,6 +165,7 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [lib/utils/theme/outline\_\_button\_theme.dart](/lib/utils/theme/outline__button_theme.dart) | Dart | 32 | 2 | 2 | 36 |
 | [lib/utils/theme/text\_field\_theme.dart](/lib/utils/theme/text_field_theme.dart) | Dart | 66 | 1 | 4 | 71 |
 | [lib/utils/theme/thme.dart](/lib/utils/theme/thme.dart) | Dart | 24 | 0 | 2 | 26 |
+| [lib/utils/validators/validation.dart](/lib/utils/validators/validation.dart) | Dart | 46 | 3 | 6 | 55 |
 | [linux/CMakeLists.txt](/linux/CMakeLists.txt) | CMake | 104 | 0 | 25 | 129 |
 | [linux/flutter/CMakeLists.txt](/linux/flutter/CMakeLists.txt) | CMake | 79 | 0 | 10 | 89 |
 | [linux/flutter/generated\_plugin\_registrant.cc](/linux/flutter/generated_plugin_registrant.cc) | C++ | 7 | 4 | 5 | 16 |
@@ -149,22 +175,22 @@ Total : 163 files,  6839 codes, 392 comments, 763 blanks, all 7994 lines
 | [linux/runner/main.cc](/linux/runner/main.cc) | C++ | 5 | 0 | 2 | 7 |
 | [linux/runner/my\_application.cc](/linux/runner/my_application.cc) | C++ | 91 | 25 | 29 | 145 |
 | [linux/runner/my\_application.h](/linux/runner/my_application.h) | C++ | 7 | 7 | 5 | 19 |
-| [macos/Flutter/GeneratedPluginRegistrant.swift](/macos/Flutter/GeneratedPluginRegistrant.swift) | Swift | 6 | 3 | 4 | 13 |
+| [macos/Flutter/GeneratedPluginRegistrant.swift](/macos/Flutter/GeneratedPluginRegistrant.swift) | Swift | 16 | 3 | 4 | 23 |
 | [macos/RunnerTests/RunnerTests.swift](/macos/RunnerTests/RunnerTests.swift) | Swift | 7 | 2 | 4 | 13 |
 | [macos/Runner/AppDelegate.swift](/macos/Runner/AppDelegate.swift) | Swift | 11 | 0 | 3 | 14 |
 | [macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json](/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json) | JSON | 68 | 0 | 1 | 69 |
 | [macos/Runner/Base.lproj/MainMenu.xib](/macos/Runner/Base.lproj/MainMenu.xib) | XML | 343 | 0 | 1 | 344 |
 | [macos/Runner/MainFlutterWindow.swift](/macos/Runner/MainFlutterWindow.swift) | Swift | 12 | 0 | 4 | 16 |
-| [pubspec.yaml](/pubspec.yaml) | YAML | 47 | 1 | 15 | 63 |
+| [pubspec.yaml](/pubspec.yaml) | YAML | 54 | 1 | 14 | 69 |
 | [splash.yaml](/splash.yaml) | YAML | 11 | 0 | 6 | 17 |
 | [test/widget\_test.dart](/test/widget_test.dart) | Dart | 14 | 10 | 6 | 30 |
 | [web/index.html](/web/index.html) | HTML | 84 | 15 | 18 | 117 |
 | [web/manifest.json](/web/manifest.json) | JSON | 35 | 0 | 1 | 36 |
 | [windows/CMakeLists.txt](/windows/CMakeLists.txt) | CMake | 89 | 0 | 20 | 109 |
 | [windows/flutter/CMakeLists.txt](/windows/flutter/CMakeLists.txt) | CMake | 98 | 0 | 12 | 110 |
-| [windows/flutter/generated\_plugin\_registrant.cc](/windows/flutter/generated_plugin_registrant.cc) | C++ | 6 | 4 | 5 | 15 |
+| [windows/flutter/generated\_plugin\_registrant.cc](/windows/flutter/generated_plugin_registrant.cc) | C++ | 18 | 4 | 5 | 27 |
 | [windows/flutter/generated\_plugin\_registrant.h](/windows/flutter/generated_plugin_registrant.h) | C++ | 5 | 5 | 6 | 16 |
-| [windows/flutter/generated\_plugins.cmake](/windows/flutter/generated_plugins.cmake) | CMake | 19 | 0 | 6 | 25 |
+| [windows/flutter/generated\_plugins.cmake](/windows/flutter/generated_plugins.cmake) | CMake | 23 | 0 | 6 | 29 |
 | [windows/runner/CMakeLists.txt](/windows/runner/CMakeLists.txt) | CMake | 34 | 0 | 7 | 41 |
 | [windows/runner/flutter\_window.cpp](/windows/runner/flutter_window.cpp) | C++ | 49 | 7 | 16 | 72 |
 | [windows/runner/flutter\_window.h](/windows/runner/flutter_window.h) | C++ | 20 | 5 | 9 | 34 |

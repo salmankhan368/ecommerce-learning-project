@@ -29,10 +29,7 @@ class SignUpPage extends StatelessWidget {
               //Form
               SSignupForm(),
               SizedBox(height: Ssizes.spacebtwSection),
-              SDividerForm(
-                dark: dark,
-                dividerText: SText.signUpWith.capitalize!,
-              ),
+              SDividerForm(dividerText: SText.signUpWith.capitalize!),
               SizedBox(height: Ssizes.spacebtwSection),
               SFottersocial(),
             ],

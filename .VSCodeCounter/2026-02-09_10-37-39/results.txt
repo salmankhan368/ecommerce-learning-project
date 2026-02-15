@@ -1,0 +1,368 @@
+Date : 2026-02-09 10:37:39
+Directory : d:\Profesional Flutter project Structure\s_store
+Total : 189 files,  8338 codes, 476 comments, 886 blanks, all 9700 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |        127 |      6,184 |        243 |        510 |      6,937 |
+| C++        |         16 |        567 |        135 |        191 |        893 |
+| XML        |         14 |        541 |         53 |         14 |        608 |
+| CMake      |          8 |        467 |          0 |         92 |        559 |
+| JSON       |         10 |        336 |          0 |          5 |        341 |
+| HTML       |          1 |         84 |         15 |         18 |        117 |
+| YAML       |          3 |         68 |         23 |         24 |        115 |
+| Swift      |          6 |         65 |          7 |         21 |         93 |
+| Markdown   |          2 |         18 |          0 |          9 |         27 |
+| Properties |          2 |          8 |          0 |          2 |         10 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                       |        189 |      8,338 |        476 |        886 |      9,700 |
+| . (Files)                                                                                                                               |          5 |         84 |         23 |         31 |        138 |
+| android                                                                                                                                 |         14 |        167 |         51 |         13 |        231 |
+| android (Files)                                                                                                                         |          1 |          3 |          0 |          1 |          4 |
+| android\app                                                                                                                             |         12 |        159 |         51 |         11 |        221 |
+| android\app (Files)                                                                                                                     |          1 |         29 |          0 |          0 |         29 |
+| android\app\src                                                                                                                         |         11 |        130 |         51 |         11 |        192 |
+| android\app\src\debug                                                                                                                   |          1 |          3 |          4 |          1 |          8 |
+| android\app\src\main                                                                                                                    |          9 |        124 |         43 |          9 |        176 |
+| android\app\src\main (Files)                                                                                                            |          1 |         34 |         11 |          1 |         46 |
+| android\app\src\main\res                                                                                                                |          8 |         90 |         32 |          8 |        130 |
+| android\app\src\main\res\drawable                                                                                                       |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\drawable-night                                                                                                 |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\drawable-night-v21                                                                                             |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\drawable-v21                                                                                                   |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\values                                                                                                         |          1 |         13 |          9 |          1 |         23 |
+| android\app\src\main\res\values-night                                                                                                   |          1 |         13 |          9 |          1 |         23 |
+| android\app\src\main\res\values-night-v31                                                                                               |          1 |         14 |          7 |          1 |         22 |
+| android\app\src\main\res\values-v31                                                                                                     |          1 |         14 |          7 |          1 |         22 |
+| android\app\src\profile                                                                                                                 |          1 |          3 |          4 |          1 |          8 |
+| android\gradle                                                                                                                          |          1 |          5 |          0 |          1 |          6 |
+| android\gradle\wrapper                                                                                                                  |          1 |          5 |          0 |          1 |          6 |
+| assets                                                                                                                                  |          3 |          3 |          0 |          0 |          3 |
+| assets\Animation                                                                                                                        |          1 |          1 |          0 |          0 |          1 |
+| assets\lotties                                                                                                                          |          2 |          2 |          0 |          0 |          2 |
+| ios                                                                                                                                     |          9 |        291 |          4 |         14 |        309 |
+| ios\Runner                                                                                                                              |          8 |        284 |          2 |         10 |        296 |
+| ios\Runner (Files)                                                                                                                      |          2 |         13 |          0 |          3 |         16 |
+| ios\RunnerTests                                                                                                                         |          1 |          7 |          2 |          4 |         13 |
+| ios\Runner\Assets.xcassets                                                                                                              |          4 |        203 |          0 |          5 |        208 |
+| ios\Runner\Assets.xcassets\AppIcon.appiconset                                                                                           |          1 |        122 |          0 |          1 |        123 |
+| ios\Runner\Assets.xcassets\LaunchBackground.imageset                                                                                    |          1 |         22 |          0 |          1 |         23 |
+| ios\Runner\Assets.xcassets\LaunchImage.imageset                                                                                         |          2 |         59 |          0 |          3 |         62 |
+| ios\Runner\Base.lproj                                                                                                                   |          2 |         68 |          2 |          2 |         72 |
+| lib                                                                                                                                     |        126 |      6,170 |        233 |        504 |      6,907 |
+| lib (Files)                                                                                                                             |          4 |        141 |         16 |         18 |        175 |
+| lib\bindings                                                                                                                            |          1 |          8 |          0 |          2 |         10 |
+| lib\common                                                                                                                              |         34 |      1,424 |         25 |        118 |      1,567 |
+| lib\common\Icon                                                                                                                         |          1 |         40 |          0 |          4 |         44 |
+| lib\common\images                                                                                                                       |          2 |        101 |          0 |          8 |        109 |
+| lib\common\layout                                                                                                                       |          1 |         29 |          0 |          3 |         32 |
+| lib\common\products.cart                                                                                                                |          1 |         39 |          0 |          3 |         42 |
+| lib\common\style                                                                                                                        |          2 |         26 |          0 |          4 |         30 |
+| lib\common\widget_sigin_up_login                                                                                                        |          2 |         84 |          0 |          7 |         91 |
+| lib\common\widgets                                                                                                                      |         25 |      1,105 |         25 |         89 |      1,219 |
+| lib\common\widgets\app.bar                                                                                                              |          2 |         68 |          2 |          8 |         78 |
+| lib\common\widgets\brands                                                                                                               |          2 |        104 |          3 |          7 |        114 |
+| lib\common\widgets\chip                                                                                                                 |          1 |         42 |          5 |          6 |         53 |
+| lib\common\widgets\custom_shape                                                                                                         |          6 |        212 |          0 |         21 |        233 |
+| lib\common\widgets\custom_shape\containers                                                                                              |          4 |        163 |          0 |         13 |        176 |
+| lib\common\widgets\custom_shape\curved_edge                                                                                             |          2 |         49 |          0 |          8 |         57 |
+| lib\common\widgets\image_text.widget                                                                                                    |          1 |         55 |          2 |          5 |         62 |
+| lib\common\widgets\list_tile                                                                                                            |          2 |         62 |          0 |          6 |         68 |
+| lib\common\widgets\loader                                                                                                               |          1 |         44 |          0 |          3 |         47 |
+| lib\common\widgets\products                                                                                                             |          4 |        302 |          5 |         14 |        321 |
+| lib\common\widgets\products\products_cards                                                                                              |          2 |        243 |          5 |          8 |        256 |
+| lib\common\widgets\products\rating                                                                                                      |          1 |         17 |          0 |          3 |         20 |
+| lib\common\widgets\products\sortable                                                                                                    |          1 |         42 |          0 |          3 |         45 |
+| lib\common\widgets\successScreen                                                                                                        |          1 |         52 |          2 |          3 |         57 |
+| lib\common\widgets\text                                                                                                                 |          5 |        164 |          6 |         16 |        186 |
+| lib\data                                                                                                                                |          2 |        116 |          9 |         10 |        135 |
+| lib\data\repository                                                                                                                     |          2 |        116 |          9 |         10 |        135 |
+| lib\data\repository\repository.authentication                                                                                           |          1 |         92 |          8 |          8 |        108 |
+| lib\data\repository\user                                                                                                                |          1 |         24 |          1 |          2 |         27 |
+| lib\fetaures                                                                                                                            |         44 |      2,452 |         59 |        171 |      2,682 |
+| lib\fetaures\authentication                                                                                                             |          4 |        223 |         26 |         29 |        278 |
+| lib\fetaures\authentication\controllers.onboarding                                                                                      |          4 |        223 |         26 |         29 |        278 |
+| lib\fetaures\authentication\controllers.onboarding (Files)                                                                              |          1 |         36 |         13 |          6 |         55 |
+| lib\fetaures\authentication\controllers.onboarding\network                                                                              |          1 |         44 |          5 |         12 |         61 |
+| lib\fetaures\authentication\controllers.onboarding\signUp                                                                               |          2 |        143 |          8 |         11 |        162 |
+| lib\fetaures\personalization                                                                                                            |          7 |        544 |          5 |         31 |        580 |
+| lib\fetaures\personalization\models                                                                                                     |          1 |         65 |          3 |         11 |         79 |
+| lib\fetaures\personalization\screens                                                                                                    |          6 |        479 |          2 |         20 |        501 |
+| lib\fetaures\personalization\screens\address                                                                                            |          3 |        215 |          0 |         10 |        225 |
+| lib\fetaures\personalization\screens\address (Files)                                                                                    |          2 |        145 |          0 |          6 |        151 |
+| lib\fetaures\personalization\screens\address\widget                                                                                     |          1 |         70 |          0 |          4 |         74 |
+| lib\fetaures\personalization\screens\profile                                                                                            |          2 |        128 |          0 |          7 |        135 |
+| lib\fetaures\personalization\screens\profile (Files)                                                                                    |          1 |         95 |          0 |          3 |         98 |
+| lib\fetaures\personalization\screens\profile\widgets                                                                                    |          1 |         33 |          0 |          4 |         37 |
+| lib\fetaures\personalization\screens\setting                                                                                            |          1 |        136 |          2 |          3 |        141 |
+| lib\fetaures\shop                                                                                                                       |         33 |      1,685 |         28 |        111 |      1,824 |
+| lib\fetaures\shop\controller                                                                                                            |          1 |          8 |          0 |          2 |         10 |
+| lib\fetaures\shop\controller\homeController                                                                                             |          1 |          8 |          0 |          2 |         10 |
+| lib\fetaures\shop\screens                                                                                                               |         32 |      1,677 |         28 |        109 |      1,814 |
+| lib\fetaures\shop\screens\Wishlist                                                                                                      |          1 |         40 |          0 |          3 |         43 |
+| lib\fetaures\shop\screens\all_brands                                                                                                    |          2 |         55 |          0 |          6 |         61 |
+| lib\fetaures\shop\screens\all_products                                                                                                  |          1 |         17 |          0 |          3 |         20 |
+| lib\fetaures\shop\screens\cart                                                                                                          |          5 |        227 |          1 |         15 |        243 |
+| lib\fetaures\shop\screens\cart (Files)                                                                                                  |          1 |         29 |          0 |          3 |         32 |
+| lib\fetaures\shop\screens\cart\widgets                                                                                                  |          4 |        198 |          1 |         12 |        211 |
+| lib\fetaures\shop\screens\checkout                                                                                                      |          4 |        194 |          4 |         13 |        211 |
+| lib\fetaures\shop\screens\checkout (Files)                                                                                              |          1 |         73 |          4 |          4 |         81 |
+| lib\fetaures\shop\screens\checkout\widgets                                                                                              |          3 |        121 |          0 |          9 |        130 |
+| lib\fetaures\shop\screens\home                                                                                                          |          5 |        233 |          8 |         16 |        257 |
+| lib\fetaures\shop\screens\home (Files)                                                                                                  |          1 |         79 |          7 |          4 |         90 |
+| lib\fetaures\shop\screens\home\widget                                                                                                   |          4 |        154 |          1 |         12 |        167 |
+| lib\fetaures\shop\screens\order                                                                                                         |          2 |        128 |          0 |          7 |        135 |
+| lib\fetaures\shop\screens\order (Files)                                                                                                 |          1 |         22 |          0 |          3 |         25 |
+| lib\fetaures\shop\screens\order\widgets                                                                                                 |          1 |        106 |          0 |          4 |        110 |
+| lib\fetaures\shop\screens\product_detail                                                                                                |          6 |        441 |          7 |         26 |        474 |
+| lib\fetaures\shop\screens\product_detail (Files)                                                                                        |          4 |        318 |          6 |         16 |        340 |
+| lib\fetaures\shop\screens\product_detail\widgets                                                                                        |          2 |        123 |          1 |         10 |        134 |
+| lib\fetaures\shop\screens\product_reviews                                                                                               |          4 |        201 |          5 |         12 |        218 |
+| lib\fetaures\shop\screens\product_reviews (Files)                                                                                       |          3 |        166 |          4 |          9 |        179 |
+| lib\fetaures\shop\screens\product_reviews\widgets                                                                                       |          1 |         35 |          1 |          3 |         39 |
+| lib\fetaures\shop\screens\store                                                                                                         |          1 |         97 |          3 |          5 |        105 |
+| lib\fetaures\shop\screens\sub_catogories                                                                                                |          1 |         44 |          0 |          3 |         47 |
+| lib\screens                                                                                                                             |         15 |        720 |         30 |         52 |        802 |
+| lib\screens\Screen.onBoarding                                                                                                           |         10 |        378 |         17 |         34 |        429 |
+| lib\screens\Screen.onBoarding (Files)                                                                                                   |          1 |         46 |          3 |          3 |         52 |
+| lib\screens\Screen.onBoarding\login                                                                                                     |          5 |        222 |         12 |         18 |        252 |
+| lib\screens\Screen.onBoarding\login (Files)                                                                                             |          1 |         36 |          4 |          3 |         43 |
+| lib\screens\Screen.onBoarding\login\signup                                                                                              |          2 |         83 |          8 |          7 |         98 |
+| lib\screens\Screen.onBoarding\login\signup\widgets                                                                                      |          2 |         83 |          8 |          7 |         98 |
+| lib\screens\Screen.onBoarding\login\widgets                                                                                             |          2 |        103 |          0 |          8 |        111 |
+| lib\screens\Screen.onBoarding\widgets                                                                                                   |          4 |        110 |          2 |         13 |        125 |
+| lib\screens\password_configuration                                                                                                      |          2 |        104 |          5 |          7 |        116 |
+| lib\screens\sign_up.widgets                                                                                                             |          3 |        238 |          8 |         11 |        257 |
+| lib\utils                                                                                                                               |         26 |      1,309 |         94 |        133 |      1,536 |
+| lib\utils\constants                                                                                                                     |          6 |        239 |         41 |         29 |        309 |
+| lib\utils\device                                                                                                                        |          1 |        101 |          9 |         25 |        135 |
+| lib\utils\exception                                                                                                                     |          5 |        313 |         17 |         15 |        345 |
+| lib\utils\formatters                                                                                                                    |          1 |         60 |         13 |         14 |         87 |
+| lib\utils\helpers                                                                                                                       |          1 |         76 |          3 |         10 |         89 |
+| lib\utils\popUp                                                                                                                         |          2 |        108 |          0 |         10 |        118 |
+| lib\utils\theme                                                                                                                         |          9 |        366 |          8 |         24 |        398 |
+| lib\utils\theme (Files)                                                                                                                 |          3 |        122 |          3 |          8 |        133 |
+| lib\utils\theme\custom_theme                                                                                                            |          6 |        244 |          5 |         16 |        265 |
+| lib\utils\validators                                                                                                                    |          1 |         46 |          3 |          6 |         55 |
+| linux                                                                                                                                   |          9 |        338 |         41 |         94 |        473 |
+| linux (Files)                                                                                                                           |          1 |        104 |          0 |         25 |        129 |
+| linux\flutter                                                                                                                           |          4 |        110 |          9 |         27 |        146 |
+| linux\runner                                                                                                                            |          4 |        124 |         32 |         42 |        198 |
+| macos                                                                                                                                   |          6 |        457 |          5 |         17 |        479 |
+| macos\Flutter                                                                                                                           |          1 |         16 |          3 |          4 |         23 |
+| macos\Runner                                                                                                                            |          4 |        434 |          0 |          9 |        443 |
+| macos\Runner (Files)                                                                                                                    |          2 |         23 |          0 |          7 |         30 |
+| macos\RunnerTests                                                                                                                       |          1 |          7 |          2 |          4 |         13 |
+| macos\Runner\Assets.xcassets                                                                                                            |          1 |         68 |          0 |          1 |         69 |
+| macos\Runner\Assets.xcassets\AppIcon.appiconset                                                                                         |          1 |         68 |          0 |          1 |         69 |
+| macos\Runner\Base.lproj                                                                                                                 |          1 |        343 |          0 |          1 |        344 |
+| test                                                                                                                                    |          1 |         14 |         10 |          6 |         30 |
+| web                                                                                                                                     |          2 |        119 |         15 |         19 |        153 |
+| windows                                                                                                                                 |         14 |        695 |         94 |        188 |        977 |
+| windows (Files)                                                                                                                         |          1 |         89 |          0 |         20 |        109 |
+| windows\flutter                                                                                                                         |          4 |        144 |          9 |         29 |        182 |
+| windows\runner                                                                                                                          |          9 |        462 |         85 |        139 |        686 |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Profesional Flutter project Structure\s_store\README.md                                                                              | Markdown   |         15 |          0 |          7 |         22 |
+| d:\Profesional Flutter project Structure\s_store\analysis_options.yaml                                                                  | YAML       |          3 |         22 |          4 |         29 |
+| d:\Profesional Flutter project Structure\s_store\android\app\google-services.json                                                       | JSON       |         29 |          0 |          0 |         29 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\debug\AndroidManifest.xml                                              | XML        |          3 |          4 |          1 |          8 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\AndroidManifest.xml                                               | XML        |         34 |         11 |          1 |         46 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\drawable-night-v21\launch_background.xml                      | XML        |          9 |          0 |          1 |         10 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\drawable-night\launch_background.xml                          | XML        |          9 |          0 |          1 |         10 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\drawable-v21\launch_background.xml                            | XML        |          9 |          0 |          1 |         10 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\drawable\launch_background.xml                                | XML        |          9 |          0 |          1 |         10 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\values-night-v31\styles.xml                                   | XML        |         14 |          7 |          1 |         22 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\values-night\styles.xml                                       | XML        |         13 |          9 |          1 |         23 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\values-v31\styles.xml                                         | XML        |         14 |          7 |          1 |         22 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\main\res\values\styles.xml                                             | XML        |         13 |          9 |          1 |         23 |
+| d:\Profesional Flutter project Structure\s_store\android\app\src\profile\AndroidManifest.xml                                            | XML        |          3 |          4 |          1 |          8 |
+| d:\Profesional Flutter project Structure\s_store\android\gradle.properties                                                              | Properties |          3 |          0 |          1 |          4 |
+| d:\Profesional Flutter project Structure\s_store\android\gradle\wrapper\gradle-wrapper.properties                                       | Properties |          5 |          0 |          1 |          6 |
+| d:\Profesional Flutter project Structure\s_store\assets\Animation\email sent.json                                                       | JSON       |          1 |          0 |          0 |          1 |
+| d:\Profesional Flutter project Structure\s_store\assets\lotties\docer.json                                                              | JSON       |          1 |          0 |          0 |          1 |
+| d:\Profesional Flutter project Structure\s_store\assets\lotties\succesReg.json                                                          | JSON       |          1 |          0 |          0 |          1 |
+| d:\Profesional Flutter project Structure\s_store\firebase.json                                                                          | JSON       |          1 |          0 |          0 |          1 |
+| d:\Profesional Flutter project Structure\s_store\ios\RunnerTests\RunnerTests.swift                                                      | Swift      |          7 |          2 |          4 |         13 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\AppDelegate.swift                                                           | Swift      |         12 |          0 |          2 |         14 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json                            | JSON       |        122 |          0 |          1 |        123 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Assets.xcassets\LaunchBackground.imageset\Contents.json                     | JSON       |         22 |          0 |          1 |         23 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json                          | JSON       |         56 |          0 |          1 |         57 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md                              | Markdown   |          3 |          0 |          2 |          5 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Base.lproj\LaunchScreen.storyboard                                          | XML        |         43 |          1 |          1 |         45 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Base.lproj\Main.storyboard                                                  | XML        |         25 |          1 |          1 |         27 |
+| d:\Profesional Flutter project Structure\s_store\ios\Runner\Runner-Bridging-Header.h                                                    | C++        |          1 |          0 |          1 |          2 |
+| d:\Profesional Flutter project Structure\s_store\lib\app.dart                                                                           | Dart       |         22 |          0 |          4 |         26 |
+| d:\Profesional Flutter project Structure\s_store\lib\bindings\general_binding.dart                                                      | Dart       |          8 |          0 |          2 |         10 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\Icon\s_circuler_icon.dart                                                   | Dart       |         40 |          0 |          4 |         44 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\images\s.circuler.image.dart                                                | Dart       |         43 |          0 |          4 |         47 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\images\s_round_image.dart                                                   | Dart       |         58 |          0 |          4 |         62 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\layout\S_grid.layout.dart                                                   | Dart       |         29 |          0 |          3 |         32 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\products.cart\cart_menu_icon.dart                                           | Dart       |         39 |          0 |          3 |         42 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\style\shadows.dart                                                          | Dart       |         16 |          0 |          2 |         18 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\style\spacing_style.dart                                                    | Dart       |         10 |          0 |          2 |         12 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widget_sigin_up_login\form_divider.dart                                     | Dart       |         36 |          0 |          4 |         40 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widget_sigin_up_login\social_button.dart                                    | Dart       |         48 |          0 |          3 |         51 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\app.bar\app_bar.dart                                                | Dart       |         45 |          1 |          4 |         50 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\app.bar\tabbar.dart                                                 | Dart       |         23 |          1 |          4 |         28 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\brands\brands_showcase.dart                                         | Dart       |         45 |          2 |          4 |         51 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\brands\sbrand_card.dart                                             | Dart       |         59 |          1 |          3 |         63 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\chip\chip_choices.dart                                              | Dart       |         42 |          5 |          6 |         53 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\custom_shape\containers\circuler_container.dart                     | Dart       |         34 |          0 |          4 |         38 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\custom_shape\containers\primary_header_container.dart               | Dart       |         36 |          0 |          2 |         38 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\custom_shape\containers\rounded_container.dart                      | Dart       |         41 |          0 |          3 |         44 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\custom_shape\containers\search_container.dart                       | Dart       |         52 |          0 |          4 |         56 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\custom_shape\curved_edge\curved_edges.dart                          | Dart       |         39 |          0 |          4 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\custom_shape\curved_edge\curved_edges_widget.dart                   | Dart       |         10 |          0 |          4 |         14 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\image_text.widget\vertical_image_text.dart                          | Dart       |         55 |          2 |          5 |         62 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\list_tile\setting_menu.dart                                         | Dart       |         26 |          0 |          3 |         29 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\list_tile\user_profile.dart                                         | Dart       |         36 |          0 |          3 |         39 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\loader\animation.loader.dart                                        | Dart       |         44 |          0 |          3 |         47 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\products_cards\product_card_horizontal.dart                | Dart       |        129 |          2 |          4 |        135 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\products_cards\product_card_verticle.dart                  | Dart       |        114 |          3 |          4 |        121 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\rating\rating_bar_indicator.dart                           | Dart       |         17 |          0 |          3 |         20 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\products\sortable\sortable.dart                                     | Dart       |         42 |          0 |          3 |         45 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\successScreen\sucees_screen.dart                                    | Dart       |         52 |          2 |          3 |         57 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\text\S.brand_title_text.verified.dart                               | Dart       |         41 |          5 |          4 |         50 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\text\Sproduct_price.dart                                            | Dart       |         30 |          0 |          3 |         33 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\text\product_tile_text.dart                                         | Dart       |         26 |          0 |          3 |         29 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\text\s.brand.title.text.dart                                        | Dart       |         33 |          1 |          3 |         37 |
+| d:\Profesional Flutter project Structure\s_store\lib\common\widgets\text\section_heading.dart                                           | Dart       |         34 |          0 |          3 |         37 |
+| d:\Profesional Flutter project Structure\s_store\lib\data\repository\repository.authentication\authentication_repository.dart           | Dart       |         92 |          8 |          8 |        108 |
+| d:\Profesional Flutter project Structure\s_store\lib\data\repository\user\user_repository.dart                                          | Dart       |         24 |          1 |          2 |         27 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\network\network_manger.dart         | Dart       |         44 |          5 |         12 |         61 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\onboarding.controller.dart          | Dart       |         36 |         13 |          6 |         55 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\sign_up_controller .dart     | Dart       |         79 |          5 |          5 |         89 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\authentication\controllers.onboarding\signUp\verify.email.controller.dart | Dart       |         64 |          3 |          6 |         73 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\models\user_model.dart                                    | Dart       |         65 |          3 |         11 |         79 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\screens\address\address.dart                              | Dart       |         40 |          0 |          3 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\screens\address\address.new.dart                          | Dart       |        105 |          0 |          3 |        108 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\screens\address\widget\single_adress.dart                 | Dart       |         70 |          0 |          4 |         74 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\screens\profile\profile.dart                              | Dart       |         95 |          0 |          3 |         98 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\screens\profile\widgets\profile_menu.dart                 | Dart       |         33 |          0 |          4 |         37 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\personalization\screens\setting\setting.dart                              | Dart       |        136 |          2 |          3 |        141 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\controller\homeController\home_controller.dart                       | Dart       |          8 |          0 |          2 |         10 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\Wishlist\whish_list.dart                                     | Dart       |         40 |          0 |          3 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_brands\all_brands.dart                                   | Dart       |         33 |          0 |          3 |         36 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_brands\brands_product.dart                               | Dart       |         22 |          0 |          3 |         25 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\all_products\all_products.dart                               | Dart       |         17 |          0 |          3 |         20 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\cart\cart_screen.dart                                        | Dart       |         29 |          0 |          3 |         32 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\cart\widgets\cart_button.dart                                | Dart       |         39 |          0 |          3 |         42 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\cart\widgets\coupon_widget.dart                              | Dart       |         51 |          0 |          3 |         54 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\cart\widgets\s_cart_item.dart                                | Dart       |         72 |          0 |          3 |         75 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\cart\widgets\x_cartitem.dart                                 | Dart       |         36 |          1 |          3 |         40 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\checkout\check_out.dart                                      | Dart       |         73 |          4 |          4 |         81 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\checkout\widgets\billing_address_section.dart                | Dart       |         44 |          0 |          3 |         47 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\checkout\widgets\billing_amount_section.dart                 | Dart       |         35 |          0 |          3 |         38 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\checkout\widgets\billing_payment_section.dart                | Dart       |         42 |          0 |          3 |         45 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\home\home.dart                                               | Dart       |         79 |          7 |          4 |         90 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\home\widget\home_appbar.dart                                 | Dart       |         37 |          0 |          3 |         40 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\home\widget\home_categories.dart                             | Dart       |         26 |          0 |          3 |         29 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\home\widget\promo_slider.dart                                | Dart       |         50 |          0 |          3 |         53 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\home\widget\s_catogries.dart                                 | Dart       |         41 |          1 |          3 |         45 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\order\order.dart                                             | Dart       |         22 |          0 |          3 |         25 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\order\widgets\s.order.list.dart                              | Dart       |        106 |          0 |          4 |        110 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_detail\product_attributes.dart                       | Dart       |        115 |          2 |          4 |        121 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_detail\product_detail.dart                           | Dart       |         92 |          4 |          6 |        102 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_detail\product_meta_data.dart                        | Dart       |         75 |          0 |          3 |         78 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_detail\rating_share_detail.dart                      | Dart       |         36 |          0 |          3 |         39 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_detail\widgets\product.detail.image.silder.dart      | Dart       |         62 |          1 |          6 |         69 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_detail\widgets\sbottom.add.to.cart.dart              | Dart       |         61 |          0 |          4 |         65 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_reviews\product_reviews.dart                         | Dart       |         35 |          3 |          3 |         41 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_reviews\rating_progress_indicator.dart               | Dart       |         28 |          0 |          3 |         31 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_reviews\user_review_card.dart                        | Dart       |        103 |          1 |          3 |        107 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\product_reviews\widgets\progress_indicator_and_reviews.dart  | Dart       |         35 |          1 |          3 |         39 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\store\store.dart                                             | Dart       |         97 |          3 |          5 |        105 |
+| d:\Profesional Flutter project Structure\s_store\lib\fetaures\shop\screens\sub_catogories\sub_categories.dart                           | Dart       |         44 |          0 |          3 |         47 |
+| d:\Profesional Flutter project Structure\s_store\lib\firebase_options.dart                                                              | Dart       |         58 |         12 |          5 |         75 |
+| d:\Profesional Flutter project Structure\s_store\lib\main.dart                                                                          | Dart       |         18 |          4 |          4 |         26 |
+| d:\Profesional Flutter project Structure\s_store\lib\navigation_menu.dart                                                               | Dart       |         43 |          0 |          5 |         48 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\login\login_screen.dart                                  | Dart       |         36 |          4 |          3 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\login\signup\widgets\signup.dart                         | Dart       |          8 |          0 |          2 |         10 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\login\signup\widgets\verify_email.dart                   | Dart       |         75 |          8 |          5 |         88 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\login\widgets\login_form.dart                            | Dart       |         74 |          0 |          4 |         78 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\login\widgets\login_header.dart                          | Dart       |         29 |          0 |          4 |         33 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\onboarding.dart                                          | Dart       |         46 |          3 |          3 |         52 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\widgets\Smooth_page_indicator.dart                       | Dart       |         28 |          0 |          3 |         31 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\widgets\on_oarding_next.dart                             | Dart       |         26 |          0 |          4 |         30 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\widgets\onboarding_page.dart                             | Dart       |         38 |          2 |          3 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\Screen.onBoarding\widgets\onboarding_skip.dart                             | Dart       |         18 |          0 |          3 |         21 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\password_configuration\forget_password.dart                                | Dart       |         52 |          1 |          4 |         57 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\password_configuration\reset_password.dart                                 | Dart       |         52 |          4 |          3 |         59 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\sign_up.dart                                               | Dart       |         40 |          2 |          3 |         45 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\signup_form.dart                                           | Dart       |        137 |          6 |          6 |        149 |
+| d:\Profesional Flutter project Structure\s_store\lib\screens\sign_up.widgets\terms.and.condition.checkbox.dart                          | Dart       |         61 |          0 |          2 |         63 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\constants\api_constant.dart                                                  | Dart       |          3 |          0 |          1 |          4 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\constants\colors.dart                                                        | Dart       |         36 |          9 |         11 |         56 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\constants\enums.dart                                                         | Dart       |         11 |          0 |          3 |         14 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\constants\image_string.dart                                                  | Dart       |         94 |         10 |          3 |        107 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\constants\sizes.dart                                                         | Dart       |         39 |         15 |          9 |         63 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\constants\text_strings.dart                                                  | Dart       |         56 |          7 |          2 |         65 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\device\device_utilty.dart                                                    | Dart       |        101 |          9 |         25 |        135 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\exceptions.dart                                                    | Dart       |         50 |          4 |          3 |         57 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\firebase_auth_exception.dart                                       | Dart       |         90 |          0 |          1 |         91 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\firebase_exceptions.dart                                           | Dart       |         94 |          4 |          3 |        101 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\format_exceptions.dart                                             | Dart       |         41 |          7 |          5 |         53 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\exception\platform_exceptions.dart                                           | Dart       |         38 |          2 |          3 |         43 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\formatters\formatter.dart                                                    | Dart       |         60 |         13 |         14 |         87 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\helpers\helper_functions.dart                                                | Dart       |         76 |          3 |         10 |         89 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\popUp\full_screen_loader.dart                                                | Dart       |         32 |          0 |          4 |         36 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\popUp\loader.dart                                                            | Dart       |         76 |          0 |          6 |         82 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\custom_theme\appbar_theme.dart                                         | Dart       |         32 |          0 |          2 |         34 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\custom_theme\bottom_sheet.dart                                         | Dart       |         16 |          0 |          2 |         18 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\custom_theme\checkbox_theme.dart                                       | Dart       |         21 |          0 |          2 |         23 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\custom_theme\chip_theme.dart                                           | Dart       |         19 |          3 |          2 |         24 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\custom_theme\s_elevated_theme.dart                                     | Dart       |         38 |          2 |          2 |         42 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\custom_theme\text_theme.dart                                           | Dart       |        118 |          0 |          6 |        124 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\outline__button_theme.dart                                             | Dart       |         32 |          2 |          2 |         36 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\text_field_theme.dart                                                  | Dart       |         66 |          1 |          4 |         71 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\theme\thme.dart                                                              | Dart       |         24 |          0 |          2 |         26 |
+| d:\Profesional Flutter project Structure\s_store\lib\utils\validators\validation.dart                                                   | Dart       |         46 |          3 |          6 |         55 |
+| d:\Profesional Flutter project Structure\s_store\linux\CMakeLists.txt                                                                   | CMake      |        104 |          0 |         25 |        129 |
+| d:\Profesional Flutter project Structure\s_store\linux\flutter\CMakeLists.txt                                                           | CMake      |         79 |          0 |         10 |         89 |
+| d:\Profesional Flutter project Structure\s_store\linux\flutter\generated_plugin_registrant.cc                                           | C++        |          7 |          4 |          5 |         16 |
+| d:\Profesional Flutter project Structure\s_store\linux\flutter\generated_plugin_registrant.h                                            | C++        |          5 |          5 |          6 |         16 |
+| d:\Profesional Flutter project Structure\s_store\linux\flutter\generated_plugins.cmake                                                  | CMake      |         19 |          0 |          6 |         25 |
+| d:\Profesional Flutter project Structure\s_store\linux\runner\CMakeLists.txt                                                            | CMake      |         21 |          0 |          6 |         27 |
+| d:\Profesional Flutter project Structure\s_store\linux\runner\main.cc                                                                   | C++        |          5 |          0 |          2 |          7 |
+| d:\Profesional Flutter project Structure\s_store\linux\runner\my_application.cc                                                         | C++        |         91 |         25 |         29 |        145 |
+| d:\Profesional Flutter project Structure\s_store\linux\runner\my_application.h                                                          | C++        |          7 |          7 |          5 |         19 |
+| d:\Profesional Flutter project Structure\s_store\macos\Flutter\GeneratedPluginRegistrant.swift                                          | Swift      |         16 |          3 |          4 |         23 |
+| d:\Profesional Flutter project Structure\s_store\macos\RunnerTests\RunnerTests.swift                                                    | Swift      |          7 |          2 |          4 |         13 |
+| d:\Profesional Flutter project Structure\s_store\macos\Runner\AppDelegate.swift                                                         | Swift      |         11 |          0 |          3 |         14 |
+| d:\Profesional Flutter project Structure\s_store\macos\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json                          | JSON       |         68 |          0 |          1 |         69 |
+| d:\Profesional Flutter project Structure\s_store\macos\Runner\Base.lproj\MainMenu.xib                                                   | XML        |        343 |          0 |          1 |        344 |
+| d:\Profesional Flutter project Structure\s_store\macos\Runner\MainFlutterWindow.swift                                                   | Swift      |         12 |          0 |          4 |         16 |
+| d:\Profesional Flutter project Structure\s_store\pubspec.yaml                                                                           | YAML       |         54 |          1 |         14 |         69 |
+| d:\Profesional Flutter project Structure\s_store\splash.yaml                                                                            | YAML       |         11 |          0 |          6 |         17 |
+| d:\Profesional Flutter project Structure\s_store\test\widget_test.dart                                                                  | Dart       |         14 |         10 |          6 |         30 |
+| d:\Profesional Flutter project Structure\s_store\web\index.html                                                                         | HTML       |         84 |         15 |         18 |        117 |
+| d:\Profesional Flutter project Structure\s_store\web\manifest.json                                                                      | JSON       |         35 |          0 |          1 |         36 |
+| d:\Profesional Flutter project Structure\s_store\windows\CMakeLists.txt                                                                 | CMake      |         89 |          0 |         20 |        109 |
+| d:\Profesional Flutter project Structure\s_store\windows\flutter\CMakeLists.txt                                                         | CMake      |         98 |          0 |         12 |        110 |
+| d:\Profesional Flutter project Structure\s_store\windows\flutter\generated_plugin_registrant.cc                                         | C++        |         18 |          4 |          5 |         27 |
+| d:\Profesional Flutter project Structure\s_store\windows\flutter\generated_plugin_registrant.h                                          | C++        |          5 |          5 |          6 |         16 |
+| d:\Profesional Flutter project Structure\s_store\windows\flutter\generated_plugins.cmake                                                | CMake      |         23 |          0 |          6 |         29 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\CMakeLists.txt                                                          | CMake      |         34 |          0 |          7 |         41 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\flutter_window.cpp                                                      | C++        |         49 |          7 |         16 |         72 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\flutter_window.h                                                        | C++        |         20 |          5 |          9 |         34 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\main.cpp                                                                | C++        |         30 |          4 |         10 |         44 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\resource.h                                                              | C++        |          9 |          6 |          2 |         17 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\utils.cpp                                                               | C++        |         54 |          2 |         10 |         66 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\utils.h                                                                 | C++        |          8 |          6 |          6 |         20 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\win32_window.cpp                                                        | C++        |        210 |         24 |         55 |        289 |
+| d:\Profesional Flutter project Structure\s_store\windows\runner\win32_window.h                                                          | C++        |         48 |         31 |         24 |        103 |
+| Total                                                                                                                                   |            |      8,338 |        476 |        886 |      9,700 |
++-----------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

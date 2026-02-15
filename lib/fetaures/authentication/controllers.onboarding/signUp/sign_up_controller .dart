@@ -28,7 +28,7 @@ class SignUpController extends GetxController {
   Future<void> signup() async {
     try {
       isLoading.value = true;
-      await Future.delayed(Duration(seconds: 5));
+      await Future.delayed(Duration(seconds: 3));
       SFullScreenLoader.openLoadingDialog(
         'We are processing your information...',
         SImage.docer,

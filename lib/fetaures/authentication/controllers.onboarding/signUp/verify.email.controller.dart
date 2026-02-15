@@ -12,7 +12,7 @@ class VerifyEmailController extends GetxController {
   final isLoading = false.obs;
   @override
   void onInit() {
-    // sendEmailVerification();
+    sendEmailVerification();
     setTimerForAutoRedirect();
     super.onInit();
   }

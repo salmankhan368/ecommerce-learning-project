@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:s_store/screens/sign_up.widgets/sign_up.dart';
+import 'package:s_store/fetaures/authentication/controllers/login/login_controller.dart';
 import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/image_string.dart';
 import 'package:s_store/utils/constants/sizes.dart';
@@ -10,6 +10,7 @@ class SFottersocial extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(LoginController());
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -19,9 +20,8 @@ class SFottersocial extends StatelessWidget {
             borderRadius: BorderRadius.circular(100),
           ),
           child: IconButton(
-            onPressed: () {
-              Get.to(SignUpPage());
-            },
+            onPressed: () => controller.googleSigin(),
+
             icon: Image(
               width: Ssizes.iconma,
               height: Ssizes.iconma,

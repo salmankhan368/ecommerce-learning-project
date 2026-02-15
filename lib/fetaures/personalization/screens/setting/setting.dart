@@ -6,6 +6,7 @@ import 'package:s_store/common/widgets/custom_shape/containers/primary_header_co
 import 'package:s_store/common/widgets/list_tile/setting_menu.dart';
 import 'package:s_store/common/widgets/list_tile/user_profile.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
+import 'package:s_store/data/repository/repository.authentication/authentication_repository.dart';
 import 'package:s_store/fetaures/personalization/screens/address/address.dart';
 import 'package:s_store/fetaures/personalization/screens/profile/profile.dart';
 import 'package:s_store/fetaures/shop/screens/order/order.dart';
@@ -124,7 +125,9 @@ class SettingScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: OutlinedButton(
-                      onPressed: () {},
+                      onPressed: () =>
+                          AuthenticationRepository.instance.logout(),
+
                       child: Text('Logout'),
                     ),
                   ),

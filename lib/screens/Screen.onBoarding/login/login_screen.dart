@@ -14,26 +14,25 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final dark = SHelperFunctions.isDarkMode(context);
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: SSpacingStyle.paddingWithAppBarHeight,
-          child: Column(
-            children: [
-              //login header
-              Login_header(dark: dark),
-              //login form
-              Slogin_form(),
+    return SafeArea(
+      child: Scaffold(
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: SSpacingStyle.paddingWithAppBarHeight,
+            child: Column(
+              children: [
+                //login header
+                Login_header(dark: dark),
+                //login form
+                Sloginform(),
 
-              ///Divider
-              SDividerForm(
-                dark: dark,
-                dividerText: SText.signInwith.capitalize!,
-              ),
-              SizedBox(height: Ssizes.spacebtwSection),
-              //footer
-              SFottersocial(),
-            ],
+                ///Divider
+                SDividerForm(dividerText: SText.signInwith.capitalize!),
+                SizedBox(height: Ssizes.spacebtwSection),
+                //footer
+                SFottersocial(),
+              ],
+            ),
           ),
         ),
       ),
