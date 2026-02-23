@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:s_store/common/images/s.circuler.image.dart';
+import 'package:s_store/fetaures/personalization/controller/user_controller.dart';
 import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/image_string.dart';
 
@@ -10,6 +11,7 @@ class SuserProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = UserController.instance;
     return ListTile(
       leading: SCirculerImage(
         image: SImage.user,
@@ -18,13 +20,13 @@ class SuserProfile extends StatelessWidget {
         padding: 0,
       ),
       title: Text(
-        'Code with Salman',
+        controller.user.value.fullName,
         style: Theme.of(
           context,
         ).textTheme.headlineSmall!.apply(color: SColors.white),
       ),
       subtitle: Text(
-        'se7270309@gmail.com',
+        controller.user.value.email,
         style: Theme.of(
           context,
         ).textTheme.bodyMedium!.apply(color: SColors.white),

@@ -15,10 +15,12 @@ import 'package:s_store/utils/exception/platform_exceptions.dart';
 
 class AuthenticationRepository extends GetxController {
   static AuthenticationRepository get instance => Get.find();
+
   //variable
   final deviceStorage = GetStorage();
   final _auth = FirebaseAuth.instance;
-  //
+  //get authrntication
+  User? get authUser => _auth.currentUser;
   @override
   void onReady() {
     FlutterNativeSplash.remove();

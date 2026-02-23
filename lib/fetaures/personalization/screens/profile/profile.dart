@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:s_store/common/images/s.circuler.image.dart';
 import 'package:s_store/common/widgets/app.bar/app_bar.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
+import 'package:s_store/fetaures/personalization/controller/user_controller.dart';
+import 'package:s_store/fetaures/personalization/screens/profile/widgets/change_name.dart';
 import 'package:s_store/fetaures/personalization/screens/profile/widgets/profile_menu.dart';
 import 'package:s_store/utils/constants/colors.dart';
 import 'package:s_store/utils/constants/image_string.dart';
@@ -13,6 +16,7 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = UserController.instance;
     return Scaffold(
       appBar: SAppBar(showBackArrow: true, title: Text('Profile')),
       body: Padding(
@@ -31,14 +35,16 @@ class ProfileScreen extends StatelessWidget {
               showBackAction: false,
             ),
             SizedBox(height: Ssizes.spacebtwItem),
-            SprofileMenu(
-              value: 'Code with Salman',
-              title: 'Name',
-              onPressed: () {},
+            Obx(
+              () => SprofileMenu(
+                value: controller.user.value.fullName,
+                title: 'Name',
+                onPressed: () => Get.to(() => ChangeName()),
+              ),
             ),
             SizedBox(height: Ssizes.spacebtwItem),
             SprofileMenu(
-              value: 'Code with Salman',
+              value: controller.user.value.username,
               title: 'Username',
               onPressed: () {},
             ),
@@ -46,22 +52,22 @@ class ProfileScreen extends StatelessWidget {
             Divider(),
             SizedBox(height: Ssizes.spacebtwItem),
             SprofileMenu(
-              title: 'User ID',
-              value: '15601',
+              title: "User ID",
+              value: controller.user.value.id,
               onPressed: () {},
               icon: Iconsax.copy,
             ),
             SizedBox(height: Ssizes.spacebtwItem),
             SprofileMenu(
               title: 'E-mail',
-              value: 'code_with_sallu',
+              value: controller.user.value.email,
               onPressed: () {},
               icon: Iconsax.arrow_right_34,
             ),
             SizedBox(height: Ssizes.spacebtwItem),
             SprofileMenu(
               title: 'Phone Number',
-              value: '03175354373',
+              value: controller.user.value.phoneNumber,
               onPressed: () {},
               icon: Iconsax.arrow_right_34,
             ),
