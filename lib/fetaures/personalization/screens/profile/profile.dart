@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:s_store/common/images/s.circuler.image.dart';
 import 'package:s_store/common/widgets/app.bar/app_bar.dart';
+import 'package:s_store/common/widgets/shimmer/shimmer.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
 import 'package:s_store/fetaures/personalization/controller/user_controller.dart';
 import 'package:s_store/fetaures/personalization/screens/profile/widgets/change_name.dart';
@@ -25,9 +26,25 @@ class ProfileScreen extends StatelessWidget {
           children: [
             SizedBox(
               width: double.infinity,
-              child: SCirculerImage(image: SImage.user, width: 80, height: 80),
+              child: Obx(() {
+                final networkImage = controller.user.value.profilePicture;
+                final image = networkImage.isNotEmpty
+                    ? networkImage
+                    : SImage.user;
+                return controller.imageLoading.value
+                    ? Sshimmer(width: 60, height: 60, radius: 80)
+                    : SCirculerImage(
+                        image: image,
+                        width: 80,
+                        height: 80,
+                        isNetworkImage: networkImage.isNotEmpty,
+                      );
+              }),
             ),
-            TextButton(onPressed: () {}, child: Text('Change your profile')),
+            TextButton(
+              onPressed: () => controller.uploadUserProfilePicture(),
+              child: Text('Change your profile'),
+            ),
             SizedBox(height: Ssizes.spacebtwItem / 2),
             Divider(),
             SSectionHeading(
@@ -89,10 +106,10 @@ class ProfileScreen extends StatelessWidget {
             Divider(),
             SizedBox(height: Ssizes.spaceBWInputFields),
             TextButton(
-              onPressed: () {},
+              onPressed: () => controller.deleteAccountWarningPopup(),
               child: Text(
                 'Close Account',
-                style: TextStyle(color: SColors.error),
+                style: TextStyle(color: SColors.borderSecondary),
               ),
             ),
           ],

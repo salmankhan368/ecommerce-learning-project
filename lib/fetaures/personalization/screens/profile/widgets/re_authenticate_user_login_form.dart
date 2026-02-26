@@ -13,7 +13,7 @@ class ReAuthenticateUserLoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     final controller = UserController.instance;
     return Scaffold(
-      appBar: SAppBar(title: Text("Re-Authenticate User")),
+      appBar: SAppBar(showBackArrow: true, title: Text("Re-Authenticate User")),
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.all(Ssizes.defaultSpace),
@@ -57,7 +57,10 @@ class ReAuthenticateUserLoginForm extends StatelessWidget {
                 SizedBox(height: Ssizes.spacebtwSection),
                 SizedBox(
                   width: double.infinity,
-                  child: ElevatedButton(onPressed: () {}, child: Text("Save")),
+                  child: ElevatedButton(
+                    onPressed: () => controller.deleteUserAccount(),
+                    child: Text("Save"),
+                  ),
                 ),
               ],
             ),

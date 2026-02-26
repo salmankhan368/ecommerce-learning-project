@@ -1,8 +1,14 @@
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:s_store/data/repository/repository.authentication/authentication_repository.dart';
 import 'package:s_store/fetaures/personalization/models/user_model.dart';
+import 'package:s_store/utils/exception/firebase_auth_exception.dart';
 import 'package:s_store/utils/exception/firebase_exceptions.dart';
 import 'package:s_store/utils/exception/format_exceptions.dart';
 import 'package:s_store/utils/exception/platform_exceptions.dart';
@@ -111,6 +117,25 @@ class UserRepository extends GetxController {
       throw SPlatformException(e.code).message;
     } catch (e) {
       throw "Something went wrong.please try again later";
+    }
+  }
+
+  Future<String> uploadImage(String path, XFile image) async {
+    try {
+      final ref = FirebaseStorage.instance.ref(path).child(image.name);
+      await ref.putFile(File(image.path));
+      final url = await ref.getDownloadURL();
+      return url;
+    } on FirebaseAuthException catch (e) {
+      throw SFirebaseAuthException(e.code).message;
+    } on FirebaseException catch (e) {
+      throw SFirebaseException(e.code).message;
+    } on FormatException catch (_) {
+      throw SFormatException();
+    } on SPlatformException catch (e) {
+      throw SPlatformException(e.code).message;
+    } catch (e) {
+      throw "Something went wrong.please try again";
     }
   }
 }
