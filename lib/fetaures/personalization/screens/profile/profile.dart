@@ -32,12 +32,15 @@ class ProfileScreen extends StatelessWidget {
                     ? networkImage
                     : SImage.user;
                 return controller.imageLoading.value
-                    ? Sshimmer(width: 60, height: 60, radius: 80)
-                    : SCirculerImage(
-                        image: image,
-                        width: 80,
-                        height: 80,
-                        isNetworkImage: networkImage.isNotEmpty,
+                    ? Center(child: Sshimmer(width: 60, height: 60, radius: 80))
+                    : Center(
+                        child: SCirculerImage(
+                          image: image,
+                          width: 80,
+                          height: 80,
+                          boxfit: BoxFit.cover,
+                          isNetworkImage: networkImage.isNotEmpty,
+                        ),
                       );
               }),
             ),
@@ -109,7 +112,7 @@ class ProfileScreen extends StatelessWidget {
               onPressed: () => controller.deleteAccountWarningPopup(),
               child: Text(
                 'Close Account',
-                style: TextStyle(color: SColors.borderSecondary),
+                style: TextStyle(color: SColors.error),
               ),
             ),
           ],

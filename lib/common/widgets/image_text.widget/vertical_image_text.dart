@@ -12,11 +12,13 @@ class SVerticleImageText extends StatelessWidget {
     this.textColor = SColors.white,
     this.backgroundColor,
     this.onTap,
+    this.isNetworkImage = true,
   });
   final String title, image;
   final Color textColor;
   final Color? backgroundColor;
   final Function()? onTap;
+  final bool isNetworkImage;
 
   @override
   Widget build(BuildContext context) {

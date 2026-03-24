@@ -7,10 +7,12 @@ import 'package:s_store/common/widgets/list_tile/setting_menu.dart';
 import 'package:s_store/common/widgets/list_tile/user_profile.dart';
 import 'package:s_store/common/widgets/text/section_heading.dart';
 import 'package:s_store/data/repository/repository.authentication/authentication_repository.dart';
+import 'package:s_store/fetaures/personalization/controller/user_controller.dart';
 import 'package:s_store/fetaures/personalization/screens/address/address.dart';
 import 'package:s_store/fetaures/personalization/screens/profile/profile.dart';
 import 'package:s_store/fetaures/shop/screens/order/order.dart';
 import 'package:s_store/utils/constants/colors.dart';
+import 'package:s_store/utils/constants/image_string.dart';
 import 'package:s_store/utils/constants/sizes.dart';
 
 class SettingScreen extends StatelessWidget {
@@ -18,6 +20,7 @@ class SettingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = UserController.instance;
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -26,7 +29,7 @@ class SettingScreen extends StatelessWidget {
               child: Column(
                 children: [
                   SAppBar(
-                    showBackArrow: true,
+                    showBackArrow: false,
                     title: Text(
                       'Account',
                       style: Theme.of(
@@ -35,7 +38,14 @@ class SettingScreen extends StatelessWidget {
                     ),
                   ),
                   //user
-                  SuserProfile(onPressed: () => Get.to(() => ProfileScreen())),
+                  Obx(() {
+                    return SuserProfile(
+                      image: controller.user.value.profilePicture.isNotEmpty
+                          ? controller.user.value.profilePicture
+                          : SImage.user,
+                      onPressed: () => Get.to(() => ProfileScreen()),
+                    );
+                  }),
                   SizedBox(height: Ssizes.spacebtwSection),
                 ],
               ),

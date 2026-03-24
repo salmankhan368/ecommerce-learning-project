@@ -14,8 +14,8 @@ class SCirculerImage extends StatelessWidget {
     this.isNetworkImage = false,
     this.overlayColor,
     this.backgroundColor,
-    this.width = 56,
-    this.height = 56,
+    this.width = 80,
+    this.height = 80,
     this.padding = Ssizes.sa,
   });
   final BoxFit? boxfit;
@@ -39,22 +39,16 @@ class SCirculerImage extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(100),
-        child: Center(
-          child: isNetworkImage
-              ? CachedNetworkImage(
-                  imageUrl: image,
-                  fit: boxfit,
-                  color: overlayColor,
-                  progressIndicatorBuilder: (context, url, progress) =>
-                      Sshimmer(width: 55, height: 55, radius: 55),
-                  errorWidget: (context, url, error) => Icon(Icons.error),
-                )
-              : Image(
-                  image: AssetImage(image),
-                  fit: boxfit,
-                  color: overlayColor,
-                ),
-        ),
+        child: isNetworkImage
+            ? CachedNetworkImage(
+                imageUrl: image,
+                fit: boxfit,
+                color: overlayColor,
+                progressIndicatorBuilder: (context, url, progress) =>
+                    Sshimmer(width: 55, height: 55, radius: 55),
+                errorWidget: (context, url, error) => Icon(Icons.error),
+              )
+            : Image(image: AssetImage(image), fit: boxfit, color: overlayColor),
       ),
     );
   }

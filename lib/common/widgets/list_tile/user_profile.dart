@@ -7,17 +7,19 @@ import 'package:s_store/utils/constants/image_string.dart';
 
 class SuserProfile extends StatelessWidget {
   final VoidCallback? onPressed;
-  const SuserProfile({super.key, this.onPressed});
+  final String image;
+  const SuserProfile({super.key, this.onPressed, required this.image});
 
   @override
   Widget build(BuildContext context) {
     final controller = UserController.instance;
     return ListTile(
       leading: SCirculerImage(
-        image: SImage.user,
+        image: image.isNotEmpty ? image : SImage.user,
         width: 50,
         height: 50,
         padding: 0,
+        isNetworkImage: image.isNotEmpty,
       ),
       title: Text(
         controller.user.value.fullName,
